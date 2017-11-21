@@ -561,13 +561,21 @@ CTA
 .cta-texto {
 	width: 100%;	
 }
-.cta-texto p:first-child {
-	font-size: 25px;
+.cta-texto .negrita-2rem {
+	font-size: 2.5rem;
 	font-weight: bold;
 	line-height: 1.3;
 }
-.cta-texto p {
-	font-size: 50px;
+.cta-texto .regular-2rem {
+	font-size: 2.5rem;
+	line-height: 1.3;
+}
+.cta-texto .regular-4rem {
+	font-size: 4rem;
+	line-height: 1.3;
+}
+.cta-texto .regular-5rem {
+	font-size: 5rem;
 	line-height: 1.3;
 }
 

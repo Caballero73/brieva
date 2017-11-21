@@ -36,6 +36,10 @@ p {
 	font-size: 1.6rem;
 }
 
+.alto {
+	height: 190px;
+}
+
 .botones {
 	display: flex;
 }
@@ -577,6 +581,16 @@ CTA
 .cta-texto .regular-5rem {
 	font-size: 5rem;
 	line-height: 1.3;
+}
+.cta-texto a {
+	color: #1254c6;
+	font-size: 2rem;
+	font-family: sfpro,sans-serif;
+	text-decoration: underline;	
+}
+.cta-texto a:hover {
+	color: #0a2a63;
+	text-decoration: none;
 }
 
 /*=========== FIN CTA =============*/

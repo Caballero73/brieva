@@ -319,64 +319,57 @@ HEADER
 	background-color: #EF174F;
 	transition-duration: .5s;
 }
-.burger-color {
-	background: white !important;
+#bars {
+	height: 30px;
+	width: 40px;
+	position: relative;
+}
+#bars span {
+	background: #fff;
+  border: none;
+  height: 3px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+  cursor: pointer;
+}
+#bars span:nth-of-type(2) {
+    top: 14px;
+}
+#bars span:nth-of-type(3) {
+    top: 28px;
 }
 
-.button-wrap .trigger {
-	position: relative;
-	background: transparent;
-	width: 30px;
-	height: 30px;
-	border: none;
-	border-radius: 50%;
-	overflow: hidden;
-	text-indent: 100%;
-	color: transparent;
-	cursor: pointer;
-	white-space: nowrap;
+/* Animate the top hamburger bar */
+#bars.x .top {
+    -webkit-transform: translateY(14px) translateX(0) rotate(45deg);
+        -ms-transform: translateY(14px) translateX(0) rotate(45deg);
+            transform: translateY(14px) translateX(0) rotate(45deg);
+    background: #333;
 }
-.button-wrap .trigger span, .button-wrap .trigger span::before, .button-wrap .trigger span::after {
-	position: absolute;
-	background: white;
-	width: 20px;
-	height: 1.5px;
-	font-style: normal;
-	font-family: 'simple-line-icons';
-	speak: none;
-	font-style: normal;
-	font-weight: normal;
-	font-variant: normal;
-	text-transform: none;
-	line-height: 1;
+
+/* Set the middle hamburger bar's opacity to 0  */
+#bars.x .middle {
+    opacity: 0;
+    background: #333;
 }
-.button-wrap .trigger span {
-	top: calc(50% - 0.75px);
-	left: calc(50% - 7.5px);
-	transition: transform 0.2s;
+
+/* Animate the bottom hamburger bar */
+#bars.x .bottom {
+    -webkit-transform: translateY(-14px) translateX(0) rotate(-45deg);
+        -ms-transform: translateY(-14px) translateX(0) rotate(-45deg);
+            transform: translateY(-14px) translateX(0) rotate(-45deg);
+    background: #333;
 }
-.button-wrap .trigger span:before, .button-wrap .trigger span:after {
-	content: '';
-	left: 0;
-	transition: transform 0.2s, width 0.2s;
+
+.burger-color {
+	background: #fff !important;
 }
-.button-wrap .trigger span:before {
-	bottom: 7px;
-}
-.button-wrap .trigger span:after {
-	top: 7px;
-}
-.button-wrap .trigger.active span:before {
-	width: 50%;
-	transform: translateX(-1px) translateY(3px) rotate(-45deg);
-}
-.button-wrap .trigger.active span:after {
-	width: 50%;
-	transform: translateX(-1px) translateY(-3px) rotate(45deg);
-}
-.button-wrap .trigger.active span {
-	transform: rotate(180deg);
-}
+
+
 /*=========== FIN HEADER =============*/
 
 

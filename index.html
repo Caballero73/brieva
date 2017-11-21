@@ -25,11 +25,11 @@
 					<div id="marca"><img src="assets/img/logo_peq.png"></div>
 					<!-- BURGER BUTTON -->
 					<div id="burger-button">
-						<div class="button-wrap">
-							<button id="menu-bars" class="trigger">
-								<span></span>								
-							</button>
-						</div>
+						<div id="bars" class="">
+							<span class="top"></span>
+            	<span class="middle"></span>
+            	<span class="bottom"></span>
+            </div>								
 					</div>									
 				</div><!-- /.logotipo -->
 
@@ -130,24 +130,9 @@
 	*********************-->
 	<script type="text/javascript" src="assets/js/jquery-3.2.1.min.js"></script>
 	<script type="text/javascript" src="assets/js/bootstrap.js"></script>
+	<script type="text/javascript" src="assets/js/brieva.js"></script>
 	<!-- <script type="text/javascript" src="assets/js/npm.js"></script> -->
-	<script>
-		$('#burger-button').click(function() {
-			$('#menu-bars').toggleClass('active');
-			$('body').toggleClass('fijo');
-			$('#menu').toggleClass('active')
-			setTimeout(function() {
-				$('#burger-button').toggleClass('burger-color')
-			}, 300)
-		})	
-		
-		$('.link-menu').click(function() {
-			$('#menu').toggleClass('active');
-			$('body').toggleClass('fijo');
-			$('#burger-button').toggleClass('burger-color');
-			$('#menu-bars').toggleClass('active')
-		})  
-	</script>
+
 
 	
 </body>

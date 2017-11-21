@@ -18,4 +18,7 @@ $('.link-menu').click(function() {
 	$('body').toggleClass('fijo');
 	$('#burger-button').toggleClass('burger-color');
 	$('#menu-bars').toggleClass('active')
+	$('#bars').toggleClass('x');
+	$('#bars').toggleClass('x');
+	$('#bars').toggleClass('x');
 })

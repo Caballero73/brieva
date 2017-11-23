@@ -53,3 +53,16 @@ $('#carrusel').slick({
     }
   ]
 });
+
+$('#exito-carrusel').slick({
+  dots: false,
+  infinite: true,
+  speed: 500,
+  fade: true,
+  cssEase: 'linear',
+  slidesToShow: 1,
+  arrows: true,
+  prevArrow: $('.previo'),
+  nextArrow: $('.siguiente'),
+  adaptiveHeight: true
+});

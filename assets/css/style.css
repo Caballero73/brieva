@@ -28,17 +28,18 @@
 /*==================================================
 GENERALES
 ==================================================*/
-body {
-	font-family: 'sfreg',sans-serif;
+html {
 	font-size: 10px;
 }
+
+body {
+	font-family: 'sfreg',sans-serif;
+	font-size: 1.8rem;
+}
 p {
-	font-size: 1.6rem;
+	font-size: 1.8rem;
 }
 
-.alto {
-	height: 190px;
-}
 
 .botones {
 	display: flex;
@@ -90,6 +91,19 @@ p {
 
 .fijo {
 	overflow-y: hidden;
+}
+.logo-cliente {
+	height: 175px;
+}
+.logo-cliente img {
+	transform: scale(0.9);
+	transition: .3s;
+	opacity: 0.8;
+}
+.logo-cliente img:hover {
+	transform: scale(1.1);
+	transition: .3s;
+	opacity: 1;
 }
 .mt-8 {
 	margin-top: 8%;
@@ -333,15 +347,15 @@ HEADER
 }
 #bars span {
 	background: #fff;
-  border: none;
-  height: 3px;
-  width: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  -webkit-transition: all .5s ease;
-  transition: all .5s ease;
-  cursor: pointer;
+  	border: none;
+  	height: 3px;
+  	width: 100%;
+  	position: absolute;
+  	top: 0;
+  	left: 0;
+  	-webkit-transition: all .5s ease;
+  	transition: all .5s ease;
+  	cursor: pointer;
 }
 #bars span:nth-of-type(2) {
     top: 14px;
@@ -361,7 +375,6 @@ HEADER
 /* Set the middle hamburger bar's opacity to 0  */
 #bars.x .middle {
     opacity: 0;
-    background: #333;
 }
 
 /* Animate the bottom hamburger bar */
@@ -593,7 +606,152 @@ CTA
 	text-decoration: none;
 }
 
+#cta3 {
+	height: 75vh;
+	width: 100%;
+	background: #232323;
+	background-image: url('../img/bg-cta3.jpg');
+	background-attachment: fixed;
+	background-position: top;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+.cta3-contenedor {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	height: 75vh;
+	width: 100%;
+}
+.cta3-titulo {
+	color: white;
+	font-family: sfpro,sans-serif;
+	font-size: 4rem;
+}
+.cta3-texto {
+	color: white;
+	font-family: sfreg,sans-serif;
+	font-size: 2.5rem;	
+}
+#cta3 a {
+	color: #d11a48;
+	font-family: sfpro,sans-serif;
+	font-size: 2rem;
+	text-decoration: underline;
+}
+#cta3 a:hover {
+	color: #0086f8;
+	text-decoration: none;
+}
 /*=========== FIN CTA =============*/
+
+/*==================================================
+CASOS DE EXITO
+==================================================*/
+#exito {
+	background: #1254C6;
+	height: 100vh;
+	width: 100%;
+	position: relative;
+}
+#exito-carrusel-slide1 {
+	background-image: url('../img/bg-slide1.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+	width: 100%;
+	position: relative;
+}
+#exito-carrusel-slide2 {
+	background-image: url('../img/bg-slide2.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+	width: 100%;
+	position: relative;
+}
+.exito-carrusel-cont-texto {
+	margin-top: 15rem;
+	text-align: right;
+	transform: translateX(-30px);
+}
+.exito-carrusel-titulo1 {
+	color: white;
+	font-size: 2.5rem;
+	font-family: sfreg,sans-serif;
+	text-transform: uppercase;
+}
+.exito-carrusel-titulo2 {
+	color: white;
+	font-size: 4rem;
+	font-family: sfpro,sans-serif;
+	transform: translateX(55px);
+}
+.previo {
+	margin: 0 7px;
+	opacity: 1;
+	transition: 0.3s;
+}
+.previo:hover {
+	opacity: 0.6;
+	transition: 0.3s;
+}
+.siguiente {
+	margin: 0 7px;
+	opacity: 1;
+	transition: 0.3s;
+}
+.siguiente:hover {
+	opacity: 0.6;
+	transition: 0.3s;
+}
+.exito-carrusel-texto {
+	color: white;
+	font-size: 3rem;
+	font-family: sfreg,sans-serif;
+}
+.exito-carrusel-link {
+	color: white;
+	display: inline-block;
+	font-family: sfpro,sans-serif;
+	font-size: 2rem;
+	margin: 9px 0;
+	padding: 20px 0;
+	transition: 0.5s;
+	text-align: center;
+	text-decoration: underline;
+	width: 69%;
+}
+.exito-carrusel-link:hover {
+	color: #1254C6;
+	background-color: rgba(255,255,255,0.5);
+	transition: 0.5s;
+	text-decoration: none;
+}
+.exito-carrusel-boton {
+	color: white;
+	border: 1px solid white;
+	display: inline-block;
+	font-family: sfpro,sans-serif;
+	font-size: 2rem;
+	margin: 9px 0;
+	padding: 20px 0;
+	text-align: center;
+	transition: 0.3s;
+	width: 29%;
+}
+.exito-carrusel-boton:hover {
+	color: white;
+	background-color: rgba(0,0,0,0.5);
+	text-decoration: none;
+	transition: 0.3s;
+}
+/*CASOS DE EXITO*/
+
+* {
+	/*border: 1px solid red;*/
+}
+
 
 
 
@@ -601,13 +759,21 @@ CTA
 /*==================================================
 MEDIA QUERY
 ==================================================*/
+/*Tablet*/
+@media (min-width: 768px) and (max-width: 1024px){
+	html {
+		font-size: 8px;
+	}
+}
+/*Fin Tablet*/
 
 /*Laptop pequeña*/
-@media (min-width: 992px) and (max-width: 1280px){
+@media (min-width: 1025px) and (max-width: 1280px){
 	#cont-texto {
 		margin-top: 16%;
 	}
 }
 /*Fin Laptop pequeña*/
+
 
 /*=========== FIN MEDIA QUERY =============*/

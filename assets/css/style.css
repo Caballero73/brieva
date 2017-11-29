@@ -121,25 +121,6 @@ p {
   height: 175px;
   height: 17.5rem;
 }
-.logo-cliente img {
-  -webkit-transform: scale(0.9);
-      -ms-transform: scale(0.9);
-          transform: scale(0.9);
-  -webkit-transition: .3s;
-  -o-transition: .3s;
-  transition: .3s;
-  opacity: 0.8;
-}
-.logo-cliente img:hover {
-  cursor: pointer;
-  -webkit-transform: scale(1.1);
-      -ms-transform: scale(1.1);
-          transform: scale(1.1);
-  -webkit-transition: .3s;
-  -o-transition: .3s;
-  transition: .3s;
-  opacity: 1;
-}
 .mt-8 {
   margin-top: 8%;
 }

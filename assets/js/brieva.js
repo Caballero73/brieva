@@ -22,3 +22,12 @@ $('.link-menu').click(function() {
 	$('#bars').toggleClass('x');
 	$('#bars').toggleClass('x');
 })
+
+// MOVER
+// =============
+$(document).ready(function(){
+    $(".mover1").click(function(){
+        $("html,body").animate({ scrollTop : $("#cta1").offset().top  }, 1200 );
+    });
+});
+

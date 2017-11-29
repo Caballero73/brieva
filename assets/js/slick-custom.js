@@ -2,6 +2,8 @@ $('#carrusel').slick({
   centerMode: true,
   centerPadding: '550px',
   slidesToShow: 1,
+  autoplay: true,
+  autoplaySpeed: 4000,
   arrows: true,
   prevArrow: $('#izquierdo'),
   nextArrow: $('#derecho'),
@@ -64,5 +66,14 @@ $('#exito-carrusel').slick({
   arrows: true,
   prevArrow: $('.previo'),
   nextArrow: $('.siguiente'),
+  adaptiveHeight: true
+});
+
+$('.contactos-img2-carrusel').slick({
+  dots: true,
+  infinite: true,
+  speed: 300,
+  slidesToShow: 1,
+  arrows: false,
   adaptiveHeight: true
 });

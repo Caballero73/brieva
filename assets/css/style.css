@@ -380,10 +380,13 @@ HEADER
   font-size: 40px;
   font-size: 4rem;
   text-decoration: none;
+  transition: 0.5s;
 }
 #menu-agencia a:hover {
   color: #0086f8;
+  font-family: sfpro,sans-serif;
   cursor: pointer;
+  transition: 0.5s;
 }
 #menu-redes {
   margin-top: 8%;

@@ -10,6 +10,7 @@
 - CONTACTOS
 - FOOTER
 - HEADER
+- SERVICIO / SERVICES
 - SLICK
 - MEDIA QUERY
 ======================================================*/
@@ -55,8 +56,20 @@ p {
   font-size: 18px;
   font-size: 1.8rem;
 }
-
-
+a.link-rojo-azul {
+  color: #EF174F;
+  font-family: sfpro,sans-serif;
+  font-size: 2rem;
+  text-decoration: underline;
+  transition: all .5s ease;
+}
+a.link-rojo-azul:hover {
+  color: #0086F8;
+  font-family: sfpro,sans-serif;
+  font-size: 2rem;
+  text-decoration: none;
+  transition: all .5s ease;
+}
 .botones {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -85,6 +98,21 @@ p {
 }
 .btn-azul:hover {
   background-color: #0b357e;
+  color: white;
+  -webkit-transition-duration: .4s;
+       -o-transition-duration: .4s;
+          transition-duration: .4s;
+}
+.btn-violeta {
+  background-color: #a612d3;
+  color: #d6dbdf;
+  font-weight: bold;
+  -webkit-transition-duration: .4s;
+       -o-transition-duration: .4s;
+          transition-duration: .4s;
+}
+.btn-violeta:hover {
+  background-color: #6c0c89;
   color: white;
   -webkit-transition-duration: .4s;
        -o-transition-duration: .4s;
@@ -130,6 +158,9 @@ p {
 .color-333 {
   color: #333 !important;
 }
+.color-plomo {
+  color: #79919e !important;
+}
 .color-rojo {
   color: #ef174f !important;
 }
@@ -149,7 +180,7 @@ p {
   opacity: 0.75;
   text-decoration: none;
   transition:opacity 0.5s ease;
-  z-index: 999;
+  z-index: 9;
 
 }
 .ir-arriba:hover,.ir-arriba:active,
@@ -177,9 +208,62 @@ p {
   margin-top: -7rem;
   z-index: 3;
 }
+#fotos2 div.cont-fotos {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  width: 100%;
+}
+#fotos2 div.img1 {
+  width: 60%;
+  transform: translateY(25rem);
+}
+#fotos2 div.img1 img{
+  box-shadow: 0rem 0.7rem 1.8rem #111111;
+}
+#fotos2 div.img1 a{
+  color: #EF174F;
+  font-size: 1.7rem;
+  font-family: sfpro,sans-serif;
+  text-decoration: underline;
+  transition:all 0.5s ease;
+}
+#fotos2 div.img1 a:hover{
+  color: #0086F8;
+  text-decoration: none;
+  transition:all 0.5s ease;
+}
+#fotos2 img.img2 {
+  width: 40%;
+  transform: translateY(38rem);
+}
 .logo-cliente {
   height: 175px;
   height: 17.5rem;
+}
+.mb-1 {
+  margin-bottom: 1rem;
+}
+.mt-1 {
+  margin-top: 1rem;
+}
+.mb-2 {
+  margin-bottom: 2rem;
+}
+.mt-2 {
+  margin-top: 2rem;
+}
+.mb-3 {
+  margin-bottom: 3rem;
+}
+.mt-3 {
+  margin-top: 3rem;
+}
+.mb-6 {
+  margin-bottom: 6rem;
+}
+.mt-6 {
+  margin-top: 6rem;
 }
 .mt-7 {
   margin-top: 7rem;
@@ -187,8 +271,23 @@ p {
 .mt-8 {
   margin-top: 8%;
 }
+.mb-14 {
+  margin-bottom: 14rem;
+}
+.mt-14 {
+  margin-top: 14rem;
+}
+.mb-17 {
+  margin-bottom: 17rem;
+}
 .mt-17 {
   margin-top: 17rem;
+}
+.mb-20 {
+  margin-bottom: 20rem;
+}
+.mt-20 {
+  margin-top: 20rem;
 }
 .pt-1 {
   padding-top: 1rem;
@@ -236,6 +335,10 @@ p {
 }
 .texto-3 {
   font-size: 3rem;
+  line-height: 1.2;
+}
+.texto-3_5 {
+  font-size: 3.5rem;
   line-height: 1.2;
 }
 .texto-4 {
@@ -299,6 +402,13 @@ ABOUT US
 }
 #aboutus-rrss .fa-instagram:hover  {
   color: #fb3958;
+}
+#aboutus-rrss .fa-facebook  {
+  padding: 0.7rem 1.5rem;
+}
+#aboutus-rrss .fa-facebook:hover  {
+  color: #3A589E;
+  padding: 0.7rem 1.5rem;
 }
 #aboutus-rrss .fa-facebook-square:hover  {
   color: #3A589E;
@@ -788,6 +898,19 @@ HEADER
   background-size: cover;
   background-position: center;
 }
+#header-service-texto ul li a {
+  color: #3355c2;
+  font-family: sfpro,sans-serif;
+  font-size: 2rem;
+  text-decoration: underline;
+  transition: all .7s ease;
+
+}
+#header-service-texto ul li a:hover {
+  color: #ef174f;
+  text-decoration: none;
+  transition: all .7s ease;
+}
 #cont-logotipo {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -814,7 +937,7 @@ HEADER
   height: 9rem;
   width: 260px;
   width: 26rem;
-  z-index: 100;
+  z-index: 10;
 }
 #marca {
   background-color: #333333;
@@ -831,6 +954,11 @@ HEADER
   height: 9rem;
   width: 190px;
   width: 19rem;
+}
+
+#marca img {
+  width: 12.6rem;
+  height: auto;
 }
 
 #hora {
@@ -924,7 +1052,7 @@ HEADER
   top: -50px;
   top: -5rem;
   right: 0;
-  z-index: 9; 
+  z-index: 7; 
 }
 #cont-flecha-about {
   background-color: #ef174f;
@@ -936,7 +1064,18 @@ HEADER
   bottom: 270px;
   bottom: 27rem;
   right: 0;
-  z-index: 999; 
+  z-index: 7; 
+}
+#cont-flecha-services {
+  background-color: #ef174f;
+  position: absolute;
+  height: 130px;
+  height: 13rem;
+  width: 100px;
+  width: 10rem;
+  bottom: -5rem;
+  right: 0;
+  z-index: 7; 
 }
 #flecha {
   position: absolute;
@@ -980,7 +1119,7 @@ HEADER
   -o-transition: .5s;
   transition: .5s;
   width: 100%;
-  z-index: 99;
+  z-index: 9;
 }
 .menu ul {
   -webkit-box-flex: 1;
@@ -1166,6 +1305,180 @@ HEADER
 
 
 /*==================================================
+SERVICIO / SERVICES
+==================================================*/
+
+#bloque1 a {
+  color: #febd1d;
+  text-decoration: underline;
+  transition: all ease .7s !important;
+}
+#bloque1 a:hover {
+  color: #0086f8;
+  text-decoration: none;
+  transition: all ease .7s !important;
+}
+#bloque2 a {
+  color: #0086f8;
+  font-family: sfpro,sans-serif;
+  text-decoration: underline;
+  transition: all ease .7s !important;
+}
+#bloque2 a:hover {
+  color: #febd1d;
+  text-decoration: none;
+  transition: all ease .7s !important;
+}
+.contactos-services {
+  background-image: url("../img/bg-img-services2.jpg");
+  background-size: cover;
+  background-position: center top;
+  min-height: 70vh;
+  min-width: 100%;
+  height: auto;
+  width: auto;
+}
+#contactos div.contactos-services-cont {
+  position: relative;
+}
+#contactos div.contactos-services-cont div.wip {
+  background-color: #DE114B;
+  box-shadow: 0rem 0.5rem 1.5rem #111111;
+  height: 51rem;
+  width: 37rem;
+  padding: 7rem 4rem;
+  position: absolute;
+  top: -5rem;
+}
+#contactos div.contactos-services-cont div.wip a {
+  color: white;
+  text-decoration: underline;
+}
+#contactos div.contactos-services-cont div.wip a:hover {
+  color: #FEBD1D;
+  text-decoration: none;
+}
+#formulario {
+  padding-bottom: 20rem;
+  padding-top: 20rem;
+}
+.formulario input.campo {
+  margin-bottom: 2rem;
+  display: block;
+  width: 100%;
+  padding: 2rem;
+}
+.formulario input.btn {
+  padding: 2rem 3.5rem 
+}
+.webdesing {
+background-image: url("../img/bg-img-services.jpg");
+background-size: cover;
+background-position: center top;
+min-height: 25vh;
+height: auto;
+width: 100%  
+}
+.webdesing2 {
+background: #242424;
+background-image: url("../img/bg-img-services3.jpg");
+background-size: cover;
+background-position: center top;
+min-height: 25vh;
+height: auto;
+width: 100%;
+padding-top: 60rem;
+padding-bottom: 10rem; 
+}
+
+#web-ejemplos {
+  display: flex;
+}
+#web-ejemplos .columna1, #web-ejemplos .columna2 {
+  max-width: 50%;
+  position: relative;
+}
+#web-ejemplos .item {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+#web-ejemplos .item img {
+  max-width: 100%;
+  display: block;
+  transition: all 0.8s ease;
+}
+#web-ejemplos .item-texto {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  opacity:1;
+  transition: all 0.8s ease;
+  cursor: pointer;
+}
+#web-ejemplos .item-texto .cont {
+  height: auto;
+  width: 65%;
+}
+#mascara1{
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background:#D8A205;
+  opacity:0;
+  transition: all 0.8s ease;
+}
+#mascara2{
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background:#0086F8;
+  opacity:0;
+  transition: all 0.8s ease;
+}
+#mascara3{
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background:#00A94B;
+  opacity:0;
+  transition: all 0.8s ease;
+}
+
+#web-ejemplos .card-hover:hover img {
+  transform: scale(1.1);
+  transition: all 0.8s ease;
+}
+
+#web-ejemplos .card-hover:hover .item-texto{
+  opacity:0;
+  position: absolute;
+  transform: translateY(25%);
+}
+#web-ejemplos .card-hover:hover #mascara1{
+  opacity:0.4;
+}
+#web-ejemplos .card-hover:hover #mascara2{
+  opacity:0.4;
+}
+#web-ejemplos .card-hover:hover #mascara3{
+  opacity:0.4;
+}
+
+/*=========== SERVICIO / SERVICES =============*/
+
+
+/*==================================================
 SLICK
 ==================================================*/
 #servicios {
@@ -1260,7 +1573,7 @@ SLICK
 /* Anchor will cover the whole item by default */
 /* For some effects it will show as a button */
 .slick-center .grid figure figcaption > a {
-  z-index: 1000;
+  z-index: 10;
   text-indent: 200%;
   white-space: nowrap;
   font-size: 0;
@@ -1388,10 +1701,24 @@ TEAM
 /*==================================================
 MEDIA QUERY
 ==================================================*/
+/*Celular*/
+@media (min-width: 0px) and (max-width: 399px){
+  html {
+    font-size: 6px;
+  }
+}
+/*Fin Celular*/
+/*Tablet vertical*/
+@media (min-width: 400px) and (max-width: 767px){
+  html {
+    font-size: 7px;
+  }
+}
+/*Fin Tablet Vertical*/
 /*Tablet*/
 @media (min-width: 768px) and (max-width: 1024px){
   html {
-    font-size: 8px;
+    font-size: 7px;
   }
 }
 /*Fin Tablet*/
@@ -1399,7 +1726,7 @@ MEDIA QUERY
 /*Laptop pequeña*/
 @media (min-width: 1025px) and (max-width: 1280px){
   html {
-    font-size: 9px;
+    font-size: 8px;
   }
   #cont-texto {
     margin-top: 14%;
@@ -1410,7 +1737,7 @@ MEDIA QUERY
 /*Laptop*/
 @media (min-width: 1281px) and (max-width: 1380px){
   html {
-    font-size: 9px;
+    font-size: 8px;
   }
   #cont-texto {
     margin-top: 14%;

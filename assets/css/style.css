@@ -10,6 +10,7 @@
 - CONTACTOS
 - FOOTER
 - HEADER
+- SEARCH / BUSCADOR DOMINIOS
 - SERVICIO / SERVICES
 - SLICK
 - MEDIA QUERY
@@ -70,6 +71,34 @@ a.link-rojo-azul:hover {
   text-decoration: none;
   transition: all .5s ease;
 }
+a.link-azul-rojo {
+  color: #0086F8;
+  font-family: sfpro,sans-serif;
+  font-size: 2rem;
+  text-decoration: underline;
+  transition: all .5s ease;
+}
+a.link-azul-rojo:hover {
+  color: #EF174F;
+  font-family: sfpro,sans-serif;
+  font-size: 2rem;
+  text-decoration: none;
+  transition: all .5s ease;
+}
+a.link-blanco-verde {
+  color: #FFFFFF;
+  font-family: sfpro,sans-serif;
+  font-size: 2rem;
+  text-decoration: underline;
+  transition: all .5s ease;
+}
+a.link-blanco-verde:hover {
+  color: #01A946;
+  font-family: sfpro,sans-serif;
+  font-size: 2rem;
+  text-decoration: none;
+  transition: all .5s ease;
+}
 .botones {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -98,6 +127,21 @@ a.link-rojo-azul:hover {
 }
 .btn-azul:hover {
   background-color: #0b357e;
+  color: white;
+  -webkit-transition-duration: .4s;
+       -o-transition-duration: .4s;
+          transition-duration: .4s;
+}
+.btn-naranja {
+  background-color: #ff6406;
+  color: #d6dbdf;
+  font-weight: bold;
+  -webkit-transition-duration: .4s;
+       -o-transition-duration: .4s;
+          transition-duration: .4s;
+}
+.btn-naranja:hover {
+  background-color: #a44004;
   color: white;
   -webkit-transition-duration: .4s;
        -o-transition-duration: .4s;
@@ -170,6 +214,14 @@ a.link-rojo-azul:hover {
 .color-violeta {
   color: #881ed2 !important;
 }
+.degradado {
+  height: 10rem;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,242424+100&0+0,1+100 */
+  background: -moz-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(36,36,36,1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(36,36,36,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(36,36,36,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#242424',GradientType=0 ); /* IE6-9 */
+}
 .ir-arriba {
   display:none;
   background: #1854EE;
@@ -207,6 +259,9 @@ a.link-rojo-azul:hover {
 #fotos1 img.img2 {
   margin-top: -7rem;
   z-index: 3;
+}
+#fotos2 {
+  background-color: #242424;
 }
 #fotos2 div.cont-fotos {
   display: flex;
@@ -265,6 +320,9 @@ a.link-rojo-azul:hover {
 .mt-6 {
   margin-top: 6rem;
 }
+.mb-7 {
+  margin-bottom: 7rem;
+}
 .mt-7 {
   margin-top: 7rem;
 }
@@ -273,6 +331,12 @@ a.link-rojo-azul:hover {
 }
 .mb-14 {
   margin-bottom: 14rem;
+}
+.mt-10 {
+  margin-top: 10rem;
+}
+.mb-10 {
+  margin-bottom: 10rem;
 }
 .mt-14 {
   margin-top: 14rem;
@@ -368,6 +432,7 @@ ABOUT US
   background-image: url('../img/bg-about2.jpg');
   background-position: center bottom;
   background-size: cover;
+  background-attachment: fixed;
 }
 #aboutus-foto {
   position: relative;
@@ -1305,6 +1370,102 @@ HEADER
 
 
 /*==================================================
+SEARCH / BUSCADOR DOMINIOS
+==================================================*/
+.custom-search-form {
+  position: relative;
+  width: 100%;
+}
+.custom-search-form input{
+  color: #9c9c9c;
+  border-radius: 0px;
+  font-family: sfreg,sans-serif;
+  font-size: 4rem;
+  height: 10rem;
+  width: 100%;
+  padding:0 4rem;
+  border-bottom: 2px solid #999;
+  border-right: 2px solid #999;
+}
+.custom-search-form .input-group-btn {
+  position: absolute;
+  right: 0.1rem;
+  bottom: 0.1rem;
+  width: 19.8rem;
+  height: 9.8rem;
+  z-index: 4;
+}
+.custom-search-form .input-group-btn button {
+  background-color: #0086F8;
+  border: 0;
+  font-size: 3rem;
+  position: absolute;
+  right: 0.1rem;
+  bottom: 0.1rem;
+  width: 19.8rem;
+  height: 9.8rem;
+  transition: all 0.7s ease;
+  z-index: 5;
+}
+.custom-search-form .input-group-btn button:hover {
+  background-color: #204d98;
+  transition: all 0.7s ease;
+}
+.contactos-search {
+  background-color: #242424;
+  min-height: 70vh;
+  min-width: 100%;
+  height: auto;
+  width: auto;
+}
+.contactos-search a.mapa {
+  color: #4e081c;
+  font-size: 1.7rem;
+  font-family: sfpro,sans-serif;
+  text-decoration: underline;
+  transition: all 0.5s ease;
+}
+.contactos-search a.mapa:hover {
+  color: white;
+  text-decoration: none;
+  transition: all 0.5s ease;
+}
+#contactos div.contactos-search-cont {
+  position: relative;
+}
+#contactos div.contactos-search-cont div.card {
+  background-color: #DE114B;
+  box-shadow: 0rem 0.5rem 1.5rem #111111;
+  min-height: 51rem;
+  width: 47rem;
+  padding: 4rem;
+  position: absolute;
+  top: -35rem;
+}
+#reseva {
+  background-color: #34a853;
+  padding: 3.5rem 0;
+}
+#search-parallax {
+  background-image: url("../img/bg-img-search.jpg");
+  background-size: cover;
+  background-position: center top;
+  background-attachment: fixed;
+  min-height: 80vh;
+  height: auto;
+  width: 100%;
+  position: relative;  
+}
+#search-parallax div.degradado {
+  position: absolute;
+  bottom: 0;
+  height: 15rem;
+  width: 100%;
+}
+
+/*=========== FIN SEARCH / BUSCADOR DOMINIOS =============*/
+
+/*==================================================
 SERVICIO / SERVICES
 ==================================================*/
 
@@ -1375,6 +1536,7 @@ SERVICIO / SERVICES
 background-image: url("../img/bg-img-services.jpg");
 background-size: cover;
 background-position: center top;
+background-attachment: fixed;
 min-height: 25vh;
 height: auto;
 width: 100%  
@@ -1384,12 +1546,14 @@ background: #242424;
 background-image: url("../img/bg-img-services3.jpg");
 background-size: cover;
 background-position: center top;
-min-height: 25vh;
+background-attachment: fixed;
 height: auto;
 width: 100%;
 padding-top: 60rem;
-padding-bottom: 10rem; 
+padding-bottom: 14rem;
 }
+.webdesing2 div.degradado {transform: translateY(14rem)}
+.webdesing2 div.container {transform: translateY(-16rem)}
 
 #web-ejemplos {
   display: flex;

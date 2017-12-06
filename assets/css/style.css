@@ -5,6 +5,7 @@
 
 - GENERALES
 - ABOUT US
+- BRIEFING / CONTACTOS
 - CTA
 - CASOS DE EXITO
 - CONTACTOS
@@ -47,14 +48,12 @@ html {
 
 body {
   font-family: 'sfreg',sans-serif;
-  font-size: 18px;
   font-size: 1.8rem;
 }
 a {
   cursor: pointer !important;
 }
 p {
-  font-size: 18px;
   font-size: 1.8rem;
 }
 a.link-rojo-azul {
@@ -62,6 +61,8 @@ a.link-rojo-azul {
   font-family: sfpro,sans-serif;
   font-size: 2rem;
   text-decoration: underline;
+  -webkit-transition: all .5s ease;
+  -o-transition: all .5s ease;
   transition: all .5s ease;
 }
 a.link-rojo-azul:hover {
@@ -69,6 +70,8 @@ a.link-rojo-azul:hover {
   font-family: sfpro,sans-serif;
   font-size: 2rem;
   text-decoration: none;
+  -webkit-transition: all .5s ease;
+  -o-transition: all .5s ease;
   transition: all .5s ease;
 }
 a.link-azul-rojo {
@@ -76,6 +79,8 @@ a.link-azul-rojo {
   font-family: sfpro,sans-serif;
   font-size: 2rem;
   text-decoration: underline;
+  -webkit-transition: all .5s ease;
+  -o-transition: all .5s ease;
   transition: all .5s ease;
 }
 a.link-azul-rojo:hover {
@@ -83,6 +88,8 @@ a.link-azul-rojo:hover {
   font-family: sfpro,sans-serif;
   font-size: 2rem;
   text-decoration: none;
+  -webkit-transition: all .5s ease;
+  -o-transition: all .5s ease;
   transition: all .5s ease;
 }
 a.link-blanco-verde {
@@ -90,6 +97,8 @@ a.link-blanco-verde {
   font-family: sfpro,sans-serif;
   font-size: 2rem;
   text-decoration: underline;
+  -webkit-transition: all .5s ease;
+  -o-transition: all .5s ease;
   transition: all .5s ease;
 }
 a.link-blanco-verde:hover {
@@ -97,6 +106,8 @@ a.link-blanco-verde:hover {
   font-family: sfpro,sans-serif;
   font-size: 2rem;
   text-decoration: none;
+  -webkit-transition: all .5s ease;
+  -o-transition: all .5s ease;
   transition: all .5s ease;
 }
 .botones {
@@ -182,13 +193,12 @@ a.link-blanco-verde:hover {
 }
 
 .btn-lg {
-  height: 70px;
   height: 7rem;
-  width: 290px;
   width: 29rem;
 }
 .boxshadow1 {
-  box-shadow: 0rem 0.5rem 1.5rem #111111;
+  -webkit-box-shadow: 0rem 0.5rem 1.5rem #111111;
+          box-shadow: 0rem 0.5rem 1.5rem #111111;
 }
 .color-amarillo {
   color: #d8a205 !important;
@@ -216,21 +226,28 @@ a.link-blanco-verde:hover {
 }
 .degradado {
   height: 10rem;
-  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,242424+100&0+0,1+100 */
-  background: -moz-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(36,36,36,1) 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(36,36,36,1) 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(36,36,36,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#242424',GradientType=0 ); /* IE6-9 */
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,242424+100&0+0,1+100 */ /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #ffffff 0%,#242424 100%);
+  background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 0%,rgba(36, 36, 36, 1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: -webkit-gradient(linear, left top, left bottom, from(#ffffff),to(#242424));
+  background: -o-linear-gradient(top, #ffffff 0%,#242424 100%);
+  background: linear-gradient(to bottom, #ffffff 0%,#242424 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0)),to(rgba(36, 36, 36, 1)));
+  background: -o-linear-gradient(top, rgba(255, 255, 255, 0) 0%,rgba(36, 36, 36, 1) 100%);
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%,rgba(36, 36, 36, 1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='rgb(0, 255, 255)', endColorstr='#242424',GradientType=0 ); /* IE6-9 */
 }
 .ir-arriba {
   display:none;
   background: #1854EE;
-  padding: 25px;
+  padding: 2.5rem;
   position: fixed;
-  bottom:10px;
-  right:12px;
+  bottom:1rem;
+  right:1.2rem;
   opacity: 0.75;
   text-decoration: none;
+  -webkit-transition:opacity 0.5s ease;
+  -o-transition:opacity 0.5s ease;
   transition:opacity 0.5s ease;
   z-index: 9;
 
@@ -239,6 +256,8 @@ a.link-blanco-verde:hover {
 .ir-arriba:focus,.ir-arriba:visited {
   text-decoration: none;
   opacity: 1;
+  -webkit-transition:opacity 0.5s ease;
+  -o-transition:opacity 0.5s ease;
   transition:opacity 0.5s ease;
 }
 
@@ -249,8 +268,12 @@ a.link-blanco-verde:hover {
 }
 #fotos1 .container{
   position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
 }
 #fotos1 img.img1 {
   margin-top: -29.6rem;
@@ -264,36 +287,49 @@ a.link-blanco-verde:hover {
   background-color: #242424;
 }
 #fotos2 div.cont-fotos {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: nowrap;
-  align-items: flex-start;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   width: 100%;
 }
 #fotos2 div.img1 {
   width: 60%;
-  transform: translateY(25rem);
+  -webkit-transform: translateY(25rem);
+      -ms-transform: translateY(25rem);
+          transform: translateY(25rem);
 }
 #fotos2 div.img1 img{
-  box-shadow: 0rem 0.7rem 1.8rem #111111;
+  -webkit-box-shadow: 0rem 0.7rem 1.8rem #111111;
+          box-shadow: 0rem 0.7rem 1.8rem #111111;
 }
 #fotos2 div.img1 a{
   color: #EF174F;
   font-size: 1.7rem;
   font-family: sfpro,sans-serif;
   text-decoration: underline;
+  -webkit-transition:all 0.5s ease;
+  -o-transition:all 0.5s ease;
   transition:all 0.5s ease;
 }
 #fotos2 div.img1 a:hover{
   color: #0086F8;
   text-decoration: none;
+  -webkit-transition:all 0.5s ease;
+  -o-transition:all 0.5s ease;
   transition:all 0.5s ease;
 }
 #fotos2 img.img2 {
   width: 40%;
-  transform: translateY(38rem);
+  -webkit-transform: translateY(38rem);
+      -ms-transform: translateY(38rem);
+          transform: translateY(38rem);
 }
 .logo-cliente {
-  height: 175px;
   height: 17.5rem;
 }
 .mb-1 {
@@ -440,27 +476,43 @@ ABOUT US
   top: -5.5rem;
 }
 #aboutus-fotos-cont {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: flex-start;
-  flex-wrap: nowrap;
-  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+50,0f0f0f+51,0f0f0f+100&0+0,0+50,0+50,1+51,1+100 */
-  background: -moz-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 50%, rgba(15,15,15,1) 51%, rgba(15,15,15,1) 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(255,255,255,0) 50%,rgba(15,15,15,1) 51%,rgba(15,15,15,1) 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(255,255,255,0) 50%,rgba(15,15,15,1) 51%,rgba(15,15,15,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#0f0f0f',GradientType=0 ); /* IE6-9 */
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+50,0f0f0f+51,0f0f0f+100&0+0,0+50,0+50,1+51,1+100 */ /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #ffffff 0%,#ffffff 50%,#0f0f0f 51%,#0f0f0f 100%);
+  background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 0%,rgba(255, 255, 255, 0) 50%,rgba(15, 15, 15, 1) 51%,rgba(15, 15, 15, 1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: -webkit-gradient(linear, left top, left bottom, from(#ffffff),color-stop(50%, #ffffff),color-stop(51%, #0f0f0f),to(#0f0f0f));
+  background: -o-linear-gradient(top, #ffffff 0%,#ffffff 50%,#0f0f0f 51%,#0f0f0f 100%);
+  background: linear-gradient(to bottom, #ffffff 0%,#ffffff 50%,#0f0f0f 51%,#0f0f0f 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0)),color-stop(50%, rgba(255, 255, 255, 0)),color-stop(51%, rgba(15, 15, 15, 1)),to(rgba(15, 15, 15, 1)));
+  background: -o-linear-gradient(top, rgba(255, 255, 255, 0) 0%,rgba(255, 255, 255, 0) 50%,rgba(15, 15, 15, 1) 51%,rgba(15, 15, 15, 1) 100%);
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%,rgba(255, 255, 255, 0) 50%,rgba(15, 15, 15, 1) 51%,rgba(15, 15, 15, 1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='rgb(0, 255, 255)', endColorstr='#0f0f0f',GradientType=0 ); /* IE6-9 */
 }
 #aboutus-rrss {
   background-color: #de114b;
 }
 #aboutus-rrss .fa {
   font-size: 4.2rem;
+  margin: 0 10px;
   margin: 0 1rem;
   color: white;
+  -webkit-transition: 0.5s ease;
+  -o-transition: 0.5s ease;
   transition: 0.5s ease;
+  padding: 7px 9px;
   padding: 0.7rem 0.9rem;
 }
 #aboutus-rrss .fa:hover {
   font-size: 4.2rem;
+  -webkit-transition: 0.5s ease;
+  -o-transition: 0.5s ease;
   transition: 0.5s ease;
   background-color: white;
   border-radius: 50%;
@@ -484,7 +536,8 @@ ABOUT US
 #spotify {
   color: white;
   background-color: #1ca25e;
-  box-shadow: 0rem 0.5rem 1.5rem #111111;
+  -webkit-box-shadow: 0rem 0.5rem 1.5rem #111111;
+          box-shadow: 0rem 0.5rem 1.5rem #111111;
   max-width: 40rem;
   padding: 1.3rem;
   position: absolute;
@@ -498,6 +551,78 @@ ABOUT US
   width: 13rem;
 }
 /*=========== ABOUT US =============*/
+
+
+/*==================================================
+BRIEFING / CONTACTOS
+==================================================*/
+.briefing-carrusel .item {
+  background-color: #ffffff;
+  border: 1px solid #999999;
+  color: #525252;
+  cursor: pointer;
+  margin: 0.3rem 1.5rem;
+  height: 25rem;
+  padding: 1.5rem;
+  position: relative;
+}
+.contactos-briefing {
+  background-image: url("../img/bg-img-brienfing.jpg");
+  background-size: cover;
+  background-position: center top;
+  background-attachment: fixed;
+  height: 100vh;
+  width: 100%;  
+}
+#contactos-briefing div.contactos-search-cont div.card {
+  background-color: #DE114B;
+  -webkit-box-shadow: 0rem 0.5rem 1.5rem #111111;
+  box-shadow: 0rem 0.5rem 1.5rem #111111;
+  min-height: 51rem;
+  width: 47rem;
+  padding: 4rem;
+  position: absolute;
+  top: -14.5rem;
+}
+.item-activo {
+  background-color: #00A94B !important;
+  border: 1px solid #00A94B !important;
+  color: white !important;
+}
+.item-hidden {
+  display: none !important;
+}
+#flecha-izq {
+  color: #999999;
+  cursor: pointer;
+  font-size: 3rem;
+  transition: all .5s ease;
+  position: absolute;
+  top: 50%;
+  left: -1.5rem;
+  transform: translateY(-50%);
+  z-index: 2;
+}
+#flecha-der{
+  color: #999999;
+  cursor: pointer;
+  font-size: 3rem;
+  transition: all .5s ease;
+  position: absolute;
+  top: 50%;
+  right: -1.5rem;
+  transform: translateY(-50%);
+  z-index: 2;
+}
+#flecha-izq:hover{
+  color: #555555;
+  transition: all .5s ease;
+}
+#flecha-der:hover{
+  color: #555555;
+  transition: all .5s ease;
+}
+/*=========== BRIEFING / CONTACTOS =============*/
 
 
 /*==================================================
@@ -516,7 +641,6 @@ CTA
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  max-height: 555px;
   max-height: 55.5rem;
   height: 50vh;
   width: 100%;  
@@ -525,29 +649,24 @@ CTA
   width: 100%;  
 }
 .cta-texto .negrita-2rem {
-  font-size: 25px;
   font-size: 2.5rem;
   font-weight: bold;
   line-height: 1.3;
 }
 .cta-texto .regular-2rem {
-  font-size: 25px;
   font-size: 2.5rem;
   line-height: 1.3;
 }
 .cta-texto .regular-4rem {
-  font-size: 40px;
   font-size: 4rem;
   line-height: 1.3;
 }
 .cta-texto .regular-5rem {
-  font-size: 50px;
   font-size: 5rem;
   line-height: 1.3;
 }
 .cta-texto a {
   color: #1254c6;
-  font-size: 20px;
   font-size: 2rem;
   font-family: sfpro,sans-serif;
   text-decoration: underline; 
@@ -584,19 +703,16 @@ CTA
 .cta3-titulo {
   color: white;
   font-family: sfpro,sans-serif;
-  font-size: 40px;
   font-size: 4rem;
 }
 .cta3-texto {
   color: white;
   font-family: sfreg,sans-serif;
-  font-size: 25px;
   font-size: 2.5rem;  
 }
 #cta3 a {
   color: #d11a48;
   font-family: sfpro,sans-serif;
-  font-size: 20px;
   font-size: 2rem;
   text-decoration: underline;
 }
@@ -614,7 +730,6 @@ CTA
   -o-transition: .3s ease;
   transition: .3s ease;
   top: 90%;
-  width: 360px;
   width: 36rem;
   z-index: 100;
 }
@@ -635,35 +750,28 @@ CTA
 #cta3 .tarjeta-img p{
   color: white;
   font-family: sfreg,sans-serif;
-  font-size:18px;
   font-size:1.8rem;
   position: absolute;
   width: 100%;
   text-align: center;
-  top: 20px;
   top: 2rem;
 }
 #cta3 .tarjeta-img-texto {
   background-color: #e8b609;
-  padding: 35px;
   padding: 3.5rem;
 }
 #cta3 .tarjeta-img-texto-titulo{
   color: #333;
   line-height: 0.8;
   font-family: sfpro,sans-serif;
-  font-size: 35px;
   font-size: 3.5rem;
 }
 #cta3 .tarjeta-img-texto-contenido {
   color: #333;
   line-height: 0.9;
   font-family: sfreg,sans-serif;
-  font-size: 20px;
   font-size: 2rem;
-
 }
-
 /*=========== FIN CTA =============*/
 
 
@@ -693,7 +801,6 @@ CASOS DE EXITO
   position: relative;
 }
 .exito-carrusel-cont-texto {
-  margin-top: 150px;
   margin-top: 15rem;
   text-align: right;
   -webkit-transform: translateX(-3rem);
@@ -702,14 +809,12 @@ CASOS DE EXITO
 }
 .exito-carrusel-titulo1 {
   color: white;
-  font-size: 25px;
   font-size: 2.5rem;
   font-family: sfreg,sans-serif;
   text-transform: uppercase;
 }
 .exito-carrusel-titulo2 {
   color: white;
-  font-size: 40px;
   font-size: 4rem;
   font-family: sfpro,sans-serif;
   -webkit-transform: translateX(5.5rem);
@@ -717,7 +822,6 @@ CASOS DE EXITO
           transform: translateX(5.5rem);
 }
 .previo {
-  margin: 0 7px;
   margin: 0 0.7rem;
   opacity: 1;
   -webkit-transition: 0.3s;
@@ -732,7 +836,6 @@ CASOS DE EXITO
   transition: 0.3s;
 }
 .siguiente {
-  margin: 0 7px;
   margin: 0 0.7rem;
   opacity: 1;
   -webkit-transition: 0.3s;
@@ -748,7 +851,6 @@ CASOS DE EXITO
 }
 .exito-carrusel-texto {
   color: white;
-  font-size: 30px;
   font-size: 3rem;
   font-family: sfreg,sans-serif;
 }
@@ -756,11 +858,8 @@ CASOS DE EXITO
   color: white;
   display: inline-block;
   font-family: sfpro,sans-serif;
-  font-size: 20px;
   font-size: 2rem;
-  margin: 9px 0;
   margin: 0.9rem 0;
-  padding: 20px 0;
   padding: 2rem 0;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
@@ -781,15 +880,11 @@ CASOS DE EXITO
 }
 .exito-carrusel-boton {
   color: white;
-  border: 1px solid white;
   border: 0.1rem solid white;
   display: inline-block;
   font-family: sfpro,sans-serif;
-  font-size: 20px;
   font-size: 2rem;
-  margin: 9px 0;
   margin: 0.9rem 0;
-  padding: 20px 0;
   padding: 2rem 0;
   text-align: center;
   -webkit-transition: 0.3s;
@@ -831,31 +926,26 @@ CONTACTOS
 }
 .contactos-im2-tarjeta {
   color: white;
-  padding:33px;
   padding:3.3rem; 
 }
 .contactos-im2-tarjeta h3 {
   color: white;
-  font-size: 40px;
   font-size: 4rem;
   font-family: sfpro,sans-serif; 
 }
 .contactos-img2-direccion {
   color: white;
-  font-size: 20px;
   font-size: 2rem;
   font-family: sfreg,sans-serif;
 }
 .contactos-img2-mapa {
   color: white;
   font-family: sfpro,sans-serif;
-  font-size: 14px;
   font-size: 1.4rem;
   text-decoration: underline;
 }
 .contactos-img2-telefono {
   color: white;
-  font-size: 20px;
   font-size: 2rem;
   font-family: sfreg,sans-serif;
 }
@@ -865,9 +955,7 @@ CONTACTOS
 .contactos-img2-label {
   color: white;
   font-family: sfreg,sans-serif;
-  font-size: 17.5px;
   font-size: 1.75rem;
-  letter-spacing: 2px;
   letter-spacing: 0.2rem;
 }
 .contactos-img3 {
@@ -883,20 +971,18 @@ CONTACTOS
   color: white;
   display: inline-block;
   font-family: sfpro,sans-serif;
-  font-size: 17px;
   font-size: 1.7rem;
-  width: 120px;
   width: 12rem;
 }
 .contactos-menu-redes a:hover{
   color:#00a94b;
   cursor: pointer;
 }
-.slick-dots li.slick-active button::before {
+.slick-dots li.slick-active button:before {
   opacity: .9;
   color: white;
 }
-.slick-dots li button::before {
+.slick-dots li button:before {
   opacity: .5;
   color: black;
 }
@@ -908,7 +994,6 @@ CONTACTOS
 FOOTER
 ==================================================*/
 footer {
-  padding: 25px 0;
   padding: 2.5rem 0;
 }
 .footer-cont {
@@ -921,17 +1006,14 @@ footer {
   
 }
 .footer-cont img {
-  margin-right: 20px;
   margin-right: 2rem;
 }
 .footer-cont p {
   color: #666;
-  font-size: 15px;
   font-size: 1.5rem;
 }
 .footer-cont p a {
   color: #666;
-  font-size: 15px;
   font-size: 1.5rem;
   text-decoration: underline;
 }
@@ -968,12 +1050,16 @@ HEADER
   font-family: sfpro,sans-serif;
   font-size: 2rem;
   text-decoration: underline;
+  -webkit-transition: all .7s ease;
+  -o-transition: all .7s ease;
   transition: all .7s ease;
 
 }
 #header-service-texto ul li a:hover {
   color: #ef174f;
   text-decoration: none;
+  -webkit-transition: all .7s ease;
+  -o-transition: all .7s ease;
   transition: all .7s ease;
 }
 #cont-logotipo {
@@ -988,7 +1074,6 @@ HEADER
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-top: 75px;
   margin-top: 7.5rem;
   width: 100%;
 }
@@ -998,9 +1083,7 @@ HEADER
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 90px;
   height: 9rem;
-  width: 260px;
   width: 26rem;
   z-index: 10;
 }
@@ -1015,13 +1098,12 @@ HEADER
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  height: 90px;
   height: 9rem;
-  width: 190px;
   width: 19rem;
 }
 
 #marca img {
+  width: 126px;
   width: 12.6rem;
   height: auto;
 }
@@ -1031,9 +1113,7 @@ HEADER
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 50px;
   height: 5rem;
-  width: 220px;
   width: 22rem;
 }
 #icono-hora {
@@ -1047,14 +1127,11 @@ HEADER
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  height: 50px;
   height: 5rem;
-  width: 50px;
   width: 5rem;
 }
 #texto-hora {
   background-color: #ef174f;
-  font-size: 13px;
   font-size: 1.3rem;
   color: white;
   display: -webkit-box;
@@ -1066,9 +1143,7 @@ HEADER
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  height: 50px;
   height: 5rem;
-  width: 170px;
   width: 17rem;
 }
 #cont-texto {
@@ -1076,14 +1151,12 @@ HEADER
 }
 #header #cont-texto p {
   color: white;
-  font-size: 35px;
   font-size: 3.5rem;
   line-height: 1;
   text-shadow: 0px 0px 8px #333;
 }
 #header #cont-texto p#grande {
   color: white;
-  font-size: 65px;
   font-size: 6.5rem;
   font-family: "sfpro",sans-serif;
   line-height: 1;
@@ -1110,11 +1183,8 @@ HEADER
 #cont-flecha {
   background-color: #ef174f;
   position: absolute;
-  height: 130px;
   height: 13rem;
-  width: 100px;
   width: 10rem;
-  top: -50px;
   top: -5rem;
   right: 0;
   z-index: 7; 
@@ -1122,11 +1192,8 @@ HEADER
 #cont-flecha-about {
   background-color: #ef174f;
   position: absolute;
-  height: 130px;
   height: 13rem;
-  width: 100px;
   width: 10rem;
-  bottom: 270px;
   bottom: 27rem;
   right: 0;
   z-index: 7; 
@@ -1134,9 +1201,7 @@ HEADER
 #cont-flecha-services {
   background-color: #ef174f;
   position: absolute;
-  height: 130px;
   height: 13rem;
-  width: 100px;
   width: 10rem;
   bottom: -5rem;
   right: 0;
@@ -1153,17 +1218,17 @@ HEADER
 }
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes mover {
-  0%   {top: 0px;top: 0.4rem;}
-  25%  {top: 70px;top: 7rem;}
-  75%  {top: 50px;top: 5rem}
-  100% {top: 4px;top: 0.4rem;}
+  0%   {top: 0rem;top: 0.4rem;}
+  25%  {top: 7rem;}
+  75%  {top: 5rem;}
+  100% {top: 0.4rem;}
 }
 /* Standard syntax */
 @keyframes mover {
   0%   {top: 0px;top: 0.4rem;}
-  25%  {top: 70px;top: 7rem;}
-  75%  {top: 50px;top: 5rem}
-  100% {top: 4px;top: 0.4rem;}
+  25%  {top: 7rem;}
+  75%  {top: 5rem}
+  100% {top: 0.4rem;}
 }
 
 /*Menu*/
@@ -1197,7 +1262,6 @@ HEADER
 #datos {
   color: white;
   font-family: sfpro,sans-serif;
-  font-size: 22px;
   font-size: 2.2rem;
   text-align: right;
 }
@@ -1210,13 +1274,11 @@ HEADER
   text-decoration: none;
 }
 #datos address {
-  font-size: 20px;
   font-size: 2rem;
   margin:0;
 }
 #datos #ver-mapa{
   color: #0086f8;
-  font-size: 17px;
   font-size: 1.7rem;
   font-family: sfreg,sans-serif;
   padding: 0;
@@ -1224,7 +1286,6 @@ HEADER
 #datos #ver-mapa:hover{
   color: white;
   cursor: pointer;
-  font-size: 17px;
   font-size: 1.7rem;
   font-family: sfreg,sans-serif;
   padding: 0;
@@ -1232,27 +1293,28 @@ HEADER
 #menu-agencia {
   color: white;
   text-align: left;
-  padding-left: 40px;
   padding-left: 4rem;
 }
 #menu-agencia h2 {
   font-family: sfpro,sans-serif;
-  font-size: 40px;
   font-size: 4rem;
   text-decoration: underline;
 }
 #menu-agencia a {
   color: white;
   font-family: sfreg,sans-serif;
-  font-size: 40px;
   font-size: 4rem;
   text-decoration: none;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
   transition: 0.5s;
 }
 #menu-agencia a:hover {
   color: #0086f8;
   font-family: sfpro,sans-serif;
   cursor: pointer;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
   transition: 0.5s;
 }
 #menu-redes {
@@ -1261,9 +1323,7 @@ HEADER
 #menu-redes a{
   display: inline-block;
   font-family: sfpro,sans-serif;
-  font-size: 17px;
   font-size: 1.7rem;
-  width: 120px;
   width: 12rem;
 }
 #menu-redes a:hover{
@@ -1272,7 +1332,6 @@ HEADER
 }
 #tu-dominio {
   font-family: sfpro,sans-serif;
-  font-size: 30px;
   font-size: 3rem;
   text-align: right;
 }
@@ -1298,9 +1357,7 @@ HEADER
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  height: 90px;
   height: 9rem;
-  width: 70px;
   width: 7rem;
   -webkit-transition-duration: .5s;
        -o-transition-duration: .5s;
@@ -1314,16 +1371,13 @@ HEADER
           transition-duration: .5s;
 }
 #bars {
-  height: 30px;
   height: 3rem;
-  width: 40px;
   width: 4rem;
   position: relative;
 }
 #bars span {
   background: #fff;
     border: none;
-    height: 3px;
     height: 0.3rem;
     width: 100%;
     position: absolute;
@@ -1335,11 +1389,9 @@ HEADER
     cursor: pointer;
 }
 #bars span:nth-of-type(2) {
-    top: 14px;
     top: 1.4rem;
 }
 #bars span:nth-of-type(3) {
-    top: 28px;
     top: 2.8rem;
 }
 
@@ -1404,11 +1456,15 @@ SEARCH / BUSCADOR DOMINIOS
   bottom: 0.1rem;
   width: 19.8rem;
   height: 9.8rem;
+  -webkit-transition: all 0.7s ease;
+  -o-transition: all 0.7s ease;
   transition: all 0.7s ease;
   z-index: 5;
 }
 .custom-search-form .input-group-btn button:hover {
   background-color: #204d98;
+  -webkit-transition: all 0.7s ease;
+  -o-transition: all 0.7s ease;
   transition: all 0.7s ease;
 }
 .contactos-search {
@@ -1423,11 +1479,15 @@ SEARCH / BUSCADOR DOMINIOS
   font-size: 1.7rem;
   font-family: sfpro,sans-serif;
   text-decoration: underline;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
 .contactos-search a.mapa:hover {
   color: white;
   text-decoration: none;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
 #contactos div.contactos-search-cont {
@@ -1435,7 +1495,8 @@ SEARCH / BUSCADOR DOMINIOS
 }
 #contactos div.contactos-search-cont div.card {
   background-color: #DE114B;
-  box-shadow: 0rem 0.5rem 1.5rem #111111;
+  -webkit-box-shadow: 0rem 0.5rem 1.5rem #111111;
+          box-shadow: 0rem 0.5rem 1.5rem #111111;
   min-height: 51rem;
   width: 47rem;
   padding: 4rem;
@@ -1472,22 +1533,30 @@ SERVICIO / SERVICES
 #bloque1 a {
   color: #febd1d;
   text-decoration: underline;
+  -webkit-transition: all ease .7s !important;
+  -o-transition: all ease .7s !important;
   transition: all ease .7s !important;
 }
 #bloque1 a:hover {
   color: #0086f8;
   text-decoration: none;
+  -webkit-transition: all ease .7s !important;
+  -o-transition: all ease .7s !important;
   transition: all ease .7s !important;
 }
 #bloque2 a {
   color: #0086f8;
   font-family: sfpro,sans-serif;
   text-decoration: underline;
+  -webkit-transition: all ease .7s !important;
+  -o-transition: all ease .7s !important;
   transition: all ease .7s !important;
 }
 #bloque2 a:hover {
   color: #febd1d;
   text-decoration: none;
+  -webkit-transition: all ease .7s !important;
+  -o-transition: all ease .7s !important;
   transition: all ease .7s !important;
 }
 .contactos-services {
@@ -1504,7 +1573,8 @@ SERVICIO / SERVICES
 }
 #contactos div.contactos-services-cont div.wip {
   background-color: #DE114B;
-  box-shadow: 0rem 0.5rem 1.5rem #111111;
+  -webkit-box-shadow: 0rem 0.5rem 1.5rem #111111;
+          box-shadow: 0rem 0.5rem 1.5rem #111111;
   height: 51rem;
   width: 37rem;
   padding: 7rem 4rem;
@@ -1529,33 +1599,39 @@ SERVICIO / SERVICES
   width: 100%;
   padding: 2rem;
 }
+.formulario .cont-mediano {
+  max-width: 97rem;
+  margin:auto;
+}
+.formulario textarea {
+  margin-bottom: 2rem;
+  display: block;
+  width: 100%;
+  padding: 2rem;
+}
 .formulario input.btn {
   padding: 2rem 3.5rem 
 }
 .webdesing {
-background-image: url("../img/bg-img-services.jpg");
-background-size: cover;
-background-position: center top;
-background-attachment: fixed;
-min-height: 25vh;
-height: auto;
-width: 100%  
+  b
 }
 .webdesing2 {
-background: #242424;
-background-image: url("../img/bg-img-services3.jpg");
-background-size: cover;
-background-position: center top;
-background-attachment: fixed;
-height: auto;
-width: 100%;
-padding-top: 60rem;
-padding-bottom: 14rem;
+  background: #242424;
+  background-image: url("../img/bg-img-services3.jpg");
+  background-size: cover;
+  background-position: center top;
+  background-attachment: fixed;
+  height: auto;
+  width: 100%;
+  padding-top: 60rem;
+  padding-bottom: 14rem;
 }
-.webdesing2 div.degradado {transform: translateY(14rem)}
-.webdesing2 div.container {transform: translateY(-16rem)}
+.webdesing2 div.degradado {-webkit-transform: translateY(14rem);-ms-transform: translateY(14rem);transform: translateY(14rem)}
+.webdesing2 div.container {-webkit-transform: translateY(-16rem);-ms-transform: translateY(-16rem);transform: translateY(-16rem)}
 
 #web-ejemplos {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 #web-ejemplos .columna1, #web-ejemplos .columna2 {
@@ -1570,17 +1646,27 @@ padding-bottom: 14rem;
 #web-ejemplos .item img {
   max-width: 100%;
   display: block;
+  -webkit-transition: all 0.8s ease;
+  -o-transition: all 0.8s ease;
   transition: all 0.8s ease;
 }
 #web-ejemplos .item-texto {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   position: absolute;
   height: 100%;
   width: 100%;
   top: 0;
   opacity:1;
+  -webkit-transition: all 0.8s ease;
+  -o-transition: all 0.8s ease;
   transition: all 0.8s ease;
   cursor: pointer;
 }
@@ -1596,6 +1682,8 @@ padding-bottom: 14rem;
   height:100%;
   background:#D8A205;
   opacity:0;
+  -webkit-transition: all 0.8s ease;
+  -o-transition: all 0.8s ease;
   transition: all 0.8s ease;
 }
 #mascara2{
@@ -1606,6 +1694,8 @@ padding-bottom: 14rem;
   height:100%;
   background:#0086F8;
   opacity:0;
+  -webkit-transition: all 0.8s ease;
+  -o-transition: all 0.8s ease;
   transition: all 0.8s ease;
 }
 #mascara3{
@@ -1616,18 +1706,26 @@ padding-bottom: 14rem;
   height:100%;
   background:#00A94B;
   opacity:0;
+  -webkit-transition: all 0.8s ease;
+  -o-transition: all 0.8s ease;
   transition: all 0.8s ease;
 }
 
 #web-ejemplos .card-hover:hover img {
-  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: all 0.8s ease;
+  -o-transition: all 0.8s ease;
   transition: all 0.8s ease;
 }
 
 #web-ejemplos .card-hover:hover .item-texto{
   opacity:0;
   position: absolute;
-  transform: translateY(25%);
+  -webkit-transform: translateY(25%);
+      -ms-transform: translateY(25%);
+          transform: translateY(25%);
 }
 #web-ejemplos .card-hover:hover #mascara1{
   opacity:0.4;
@@ -1669,6 +1767,7 @@ SLICK
 }
 .img-slick {
   border: 4px solid transparent;
+  border: 4px solid transparent;
   border: 0.4rem solid transparent;
 }
 
@@ -1681,7 +1780,6 @@ SLICK
   clear: both;
   margin: 0 auto;
   padding: 0;
-  max-width: 1920px;
   max-width: 192rem;
   list-style: none;
   text-align: center;
@@ -1690,9 +1788,7 @@ SLICK
   position: relative;
   float: left;
   overflow: hidden;
-  margin: 10px 1%;
   margin: 1rem 1%;
-  min-width: 320px;
   min-width: 32rem;
   max-width: 100%;
   max-height: 100%;
@@ -1749,7 +1845,6 @@ SLICK
 }
 
 .slick-center .grid figure p {
-  letter-spacing: 1px;
   letter-spacing: 0.1rem;
   font-size: 68.5%;
 }
@@ -1776,6 +1871,8 @@ SLICK
   opacity: 0.1;
   -webkit-transform: scale3d(2,2,1);
   transform: scale3d(2,2,1);
+  -webkit-transition: all ease 2s !important;
+  -o-transition: all ease 2s !important;
   transition: all ease 2s !important;
 }
 
@@ -1783,9 +1880,7 @@ figure.effect-duke div {
   position: absolute;
   top: 0;
   left: 0;
-  margin: 20px;
   margin: 2rem;
-  padding: 30px;
   padding: 3rem;
   text-transform: none;
   opacity: 0;
@@ -1794,21 +1889,20 @@ figure.effect-duke div {
   -webkit-transform-origin: 50% -100%;
   -ms-transform-origin: 50% -100%;
       transform-origin: 50% -100%;
+  -webkit-transition: all ease .7s !important;
+  -o-transition: all ease .7s !important;
   transition: all ease .7s !important;
 }
 figure.effect-duke div .texto1 {
   color: white;
   font-family: sfreg,sans-serif;
-  font-size: 30px;
   font-size: 3rem;
-  margin-top: 40px;
   margin-top: 4rem;
   text-align: left;
 }
 figure.effect-duke div .texto2 {
   color: white;
   font-family: sfpro,sans-serif;
-  font-size: 50px;
   font-size: 5rem;
   text-align: left;
   line-height: 1;
@@ -1816,11 +1910,9 @@ figure.effect-duke div .texto2 {
 figure.effect-duke div .texto3 {
   color: white;
   font-family: sfreg,sans-serif;
-  font-size: 25px;
   font-size: 2.5rem;
   text-align: left;
   line-height: 1.2;
-  margin-top: 7px;
   margin-top: 0.7rem;
 }
 
@@ -1829,6 +1921,8 @@ figure.effect-duke div .texto3 {
   opacity: 1;
   -webkit-transform: scale3d(1,1,1);
   transform: scale3d(1,1,1);
+  -webkit-transition: all ease .7s !important;
+  -o-transition: all ease .7s !important;
   transition: all ease .7s !important;
 }
 /*=========== SLICK =============*/
@@ -1843,9 +1937,14 @@ TEAM
   margin-top: -5.5rem;
 }
 #team-fotos {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
-  align-items: center;  
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;  
 }
 .team-fotos-items {
   width: 48%;

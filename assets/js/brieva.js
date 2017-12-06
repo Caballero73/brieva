@@ -1,3 +1,5 @@
+// MENU PRINCIPAL
+// =====================
 $('#burger-button').click(function() {
 	$('#menu-bars').toggleClass('active');
 	$('body').toggleClass('fijo');
@@ -30,6 +32,14 @@ $(document).ready(function(){
         $("html,body").animate({ scrollTop : $("#cta1").offset().top  }, 1200 );
     });
 });
+
+// SELECCION BRIEFING
+// ======================
+$('.item').click(function() {
+	$(this).toggleClass('item-activo');
+	$(this).find('i').toggleClass('item-hidden');
+})
+ 
 
 // IR ARRIBA
 // ======================

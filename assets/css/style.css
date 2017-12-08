@@ -5,6 +5,7 @@
 
 - GENERALES
 - ABOUT US
+- BLOG / COMUNIDAD
 - BRIEFING / CONTACTOS
 - CTA
 - CASOS DE EXITO
@@ -581,6 +582,19 @@ ABOUT US
   width: 13rem;
 }
 /*=========== ABOUT US =============*/
+
+
+/*==================================================
+BLOG / COMUNIDAD
+==================================================*/
+#header-blog {
+  background-image: url(../img/bg-img-ejemplo.jpg);
+  background-position: center top;
+  background-size: cover;
+}
+
+
+/*=========== BLOG / COMUNIDAD =============*/
 
 
 /*==================================================

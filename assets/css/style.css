@@ -180,6 +180,21 @@ a.link-blanco-verde:hover {
        -o-transition-duration: .4s;
           transition-duration: .4s;
 }
+.btn-verde {
+  background-color: #0ec026;
+  color: #d6dbdf;
+  font-weight: bold;
+  -webkit-transition-duration: .4s;
+       -o-transition-duration: .4s;
+          transition-duration: .4s;
+}
+.btn-verde:hover {
+  background-color: #028013;
+  color: white;
+  -webkit-transition-duration: .4s;
+       -o-transition-duration: .4s;
+          transition-duration: .4s;
+}
 .btn-violeta {
   background-color: #a612d3;
   color: #d6dbdf;
@@ -484,6 +499,10 @@ a.link-blanco-verde:hover {
   font-size: 5rem;
   line-height: 1.2;
 }
+.texto-6_5 {
+  font-size: 6.5rem;
+  line-height: 1.2;
+}
 
 /*=========== GENERALES =============*/
 
@@ -588,10 +607,57 @@ ABOUT US
 BLOG / COMUNIDAD
 ==================================================*/
 #header-blog {
-  background-image: url(../img/bg-img-ejemplo.jpg);
+  background-image: url(../img/bg-img-blog.jpg);
   background-position: center top;
   background-size: cover;
 }
+
+#blog-art a.link-azul-gris {
+  color: #999999;
+  font-family: sfreg,sans-serif;
+  font-weight: bolder;
+  font-size: 1.7rem;
+  text-decoration: none;
+  -webkit-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  transition: all .5s ease;
+}
+#blog-art a.link-azul-gris:hover,#blog-art a.link-azul-gris:focus{
+  color: #0086F8;
+  font-family: sfreg,sans-serif;
+  font-weight: bolder;
+  font-size: 1.7rem;
+  text-decoration: underline;
+  -webkit-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  transition: all .5s ease;
+}
+.contactos-blog {
+  background-color: #242424;
+  min-height: 70vh;
+  min-width: 100%;
+  height: auto;
+  width: auto;  
+}
+.bolg-item {
+  position: relative;
+  overflow: hidden;
+}
+.bolg-item img {
+  filter:brightness(100%);
+  transition: all .7s ease;
+}
+.bolg-item:hover img {
+  filter:brightness(50%);
+  transform: scale(1.1);
+  transition: all .7s ease;
+}
+.blog-item-cont {
+  position: absolute;
+  top: 6rem;
+  left: 6rem;  
+}
+
 
 
 /*=========== BLOG / COMUNIDAD =============*/

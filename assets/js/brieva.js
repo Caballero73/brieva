@@ -1,3 +1,24 @@
+$(document).ready(function(){
+// Inicializando WOW
+// *****************
+new WOW().init();
+
+// IR ARRIBA
+// ======================
+
+$('.ir-arriba').click(function(){
+	$('body, html').animate({
+		scrollTop: '0px'
+	}, 1000);
+})
+
+$(window).scroll(function(){
+	if( $(this).scrollTop() > 0 ){
+		$('.ir-arriba').slideDown(300);
+	} else {
+		$('.ir-arriba').slideUp(300);
+	}
+})
 // MENU PRINCIPAL
 // =====================
 $('#burger-button').click(function() {
@@ -27,11 +48,9 @@ $('.link-menu').click(function() {
 
 // MOVER
 // =============
-$(document).ready(function(){
-    $(".mover1").click(function(){
-        $("html,body").animate({ scrollTop : $("#cta1").offset().top  }, 1200 );
-    });
-});
+$(".mover1").click(function(){
+	$("html,body").animate({ scrollTop : $("#cta1").offset().top  }, 1200 );
+})
 
 // SELECCION BRIEFING
 // ======================
@@ -39,23 +58,17 @@ $('.item').click(function() {
 	$(this).toggleClass('item-activo');
 	$(this).find('i').toggleClass('item-hidden');
 })
- 
-
-// IR ARRIBA
-// ======================
-
-$(document).ready(function(){
-	$('.ir-arriba').click(function(){
-	  $('body, html').animate({
-	    scrollTop: '0px'
-	  }, 1000);
-	});
-
-	$(window).scroll(function(){
-	  if( $(this).scrollTop() > 0 ){
-	    $('.ir-arriba').slideDown(300);
-	  } else {
-	    $('.ir-arriba').slideUp(300);
-	  }
-	});
+// TABS CASOS EXITO
+// ==================
+	$(".filter-button").click(function(){
+		var value = $(this).attr('data-filter');
+		if(value == "all"){
+	     //$('.filter').removeClass('hidden');
+	     $('.filter').show('1000').addClass('wow animated fadeInUp');
+	 }
+	 else{
+	 	$(".filter").not('.'+value).hide('3000');
+	 	$('.filter').filter('.'+value).show('3000');
+	 }
+	})
 });

@@ -8,6 +8,7 @@
 - BRIEFING / CONTACTOS
 - CTA
 - CASOS DE EXITO
+- CASOS DE EXITO - EJEMPLO
 - CONTACTOS
 - FOOTER
 - HEADER
@@ -16,7 +17,9 @@
 - SLICK
 - MEDIA QUERY
 ======================================================*/
-
+/** {
+  border: 1px solid red;
+}*/
 @font-face {
   font-family: 'sfreg';
   src: url('../fonts/sfreg.eot');
@@ -85,6 +88,24 @@ a.link-azul-rojo {
 }
 a.link-azul-rojo:hover {
   color: #EF174F;
+  font-family: sfpro,sans-serif;
+  font-size: 2rem;
+  text-decoration: none;
+  -webkit-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  transition: all .5s ease;
+}
+a.link-azul-gris {
+  color: #999999;
+  font-family: sfpro,sans-serif;
+  font-size: 2rem;
+  text-decoration: underline;
+  -webkit-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  transition: all .5s ease;
+}
+a.link-azul-gris:hover {
+  color: #0086F8;
   font-family: sfpro,sans-serif;
   font-size: 2rem;
   text-decoration: none;
@@ -210,7 +231,10 @@ a.link-blanco-verde:hover {
   color: #ffffff !important;
 }
 .color-333 {
-  color: #333 !important;
+  color: #333333 !important;
+}
+.color-999 {
+  color: #999999 !important;
 }
 .color-plomo {
   color: #79919e !important;
@@ -373,6 +397,12 @@ a.link-blanco-verde:hover {
 }
 .mb-10 {
   margin-bottom: 10rem;
+}
+.mt-12 {
+  margin-top: 12rem;
+}
+.mb-12 {
+  margin-bottom: 12rem;
 }
 .mt-14 {
   margin-top: 14rem;
@@ -778,6 +808,36 @@ CTA
 /*==================================================
 CASOS DE EXITO
 ==================================================*/
+.casos-cta {
+  padding-top: 12rem;
+  padding-bottom: 20rem;
+  background-color: #242424;
+}
+.casos-cta .proyecto {
+  position: relative;
+  overflow: hidden;
+}
+.casos-cta .proyecto .cont {
+  display: flex;
+  cursor: pointer;
+  flex-direction: column;
+  justify-content: space-between;
+  top: 5%;
+  left: 5%;
+  height: 90%;
+  width: 90%;
+  margin: auto;
+  position: absolute;
+}
+.proyecto .img-fondo {
+  filter:brightness(100%);
+  transition: all .7s ease;
+}
+.proyecto:hover .img-fondo {
+  filter:brightness(50%);
+  transform: scale(1.1);
+  transition: all .7s ease;
+}
 #exito {
   background: #1254C6;
   height: 100vh;
@@ -902,7 +962,59 @@ CASOS DE EXITO
   -o-transition: 0.3s;
   transition: 0.3s;
 }
+.portfolio-p .filter {
+  margin-bottom: 10rem;
+  position: relative;
+}
+.portfolio-p .filter .cont {
+  display: flex;
+  cursor: pointer;
+  flex-direction: column;
+  justify-content: space-between;
+  top: 5%;
+  left: 5%;
+  height: 90%;
+  width: 90%;
+  margin: auto;
+  position: absolute;
+}
+.portfolio-p .filter .cont .texto {
+  margin-left: 3rem;
+}
 /*CASOS DE EXITO*/
+
+
+/*==================================================
+CASOS DE EXITO - ELEMPLO
+==================================================*/
+#header-ejemplo {
+  background-image: url(../img/bg-img-ejemplo.jpg);
+  background-position: center top;
+  background-size: cover;
+}
+
+#compartir a.link-azul-gris {
+  color: #999999;
+  font-family: sfreg,sans-serif;
+  font-weight: bolder;
+  font-size: 1.7rem;
+  text-decoration: none;
+  -webkit-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  transition: all .5s ease;
+}
+#compartir a.link-azul-gris:hover,{
+  color: #0086F8;
+  font-family: sfreg,sans-serif;
+  font-weight: bolder;
+  font-size: 1.7rem;
+  text-decoration: underline;
+  -webkit-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
+/*CASOS DE EXITO - EJEMPLO*/
 
 
 /*==================================================
@@ -1613,7 +1725,12 @@ SERVICIO / SERVICES
   padding: 2rem 3.5rem 
 }
 .webdesing {
-  b
+  background-image: url("../img/bg-img-services.jpg");
+  background-size: cover;
+  background-position: center top;
+  background-attachment: fixed;
+  height: auto;
+  width: 100%;
 }
 .webdesing2 {
   background: #242424;
@@ -1866,7 +1983,11 @@ SLICK
   transition: opacity 0.35s, transform 0.35s, -webkit-transform 0.35s;
 }
 
-.slick-center figure.effect-duke img {
+figure.effect-duke img {
+  -webkit-transition: all ease 2s !important;
+  -o-transition: all ease 2s !important;
+  transition: all ease 2s !important;
+}.slick-center figure.effect-duke img {
   cursor: pointer;
   opacity: 0.1;
   -webkit-transform: scale3d(2,2,1);

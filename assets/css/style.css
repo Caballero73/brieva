@@ -2278,7 +2278,6 @@ MEDIA QUERY
   COMIENZO SUCCESS.HTML
    */
 
-
   /*
   comienzo de menu
    */
@@ -2288,13 +2287,6 @@ MEDIA QUERY
     margin-top: 50px;
   }
 
-  #datos{
-    display: none;
-  }
-  
-  #icono-hora{
-    display: none;
-  }
   #hora{
     width: 26rem;
   }
@@ -2304,7 +2296,7 @@ MEDIA QUERY
   }
 
   /*
-  fin de menu
+  exitos-galeria
    */
   .texto-5{
     font-size: 4rem;
@@ -2318,17 +2310,43 @@ MEDIA QUERY
   .texto-5{
     font-size: 3.5rem;
   }
+  .portfolio-p .filter{
+    margin-bottom: 3rem;
+  }
+
+  
+  /*
+  section de casos 
+   */
+  .casos-cta{
+    padding-bottom: 10rem;
+    padding-top: 10rem;
+  }
+  
+  
+  /*
+  contactos 
+   */
   #contactos div.contactos-services-cont div.wip{
     position: static;
+    height: 33rem;
+    padding:2rem 4rem;
+    width: 58rem;
   }
   #formulario{
     padding-top: 10rem;
     padding-bottom: 13rem;
   }
 
+ 
   /*
   FIN SUCCESS.HTML
    */
+  
+  /*
+  COMIENZO DE SUCCESS_EJ.HTML
+   */
+  
 }
 /*Fin Celular*/
 /*Tablet vertical*/

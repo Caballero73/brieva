@@ -6,6 +6,7 @@
 - GENERALES
 - ABOUT US
 - BLOG / COMUNIDAD
+- BRANDING
 - BRIEFING / CONTACTOS
 - CTA
 - CASOS DE EXITO
@@ -13,6 +14,7 @@
 - CONTACTOS
 - FOOTER
 - HEADER
+- MERCADEO
 - SEARCH / BUSCADOR DOMINIOS
 - SERVICIO / SERVICES
 - SLICK
@@ -136,6 +138,7 @@ a.link-blanco-verde:hover {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  flex-wrap: wrap;
 }
 .btn {
   border-radius: 0;
@@ -601,6 +604,63 @@ ABOUT US
   width: 13rem;
 }
 /*=========== ABOUT US =============*/
+
+
+/*==================================================
+BRANDING
+==================================================*/
+
+.branding {
+  background: #242424;
+  background-image: url("../img/bg-img-branding1.jpg");
+  background-size: cover;
+  background-position: center top;
+  background-attachment: fixed;
+
+  display: flex;
+  align-items: center;
+  height: 90vh;
+  width: 100%;
+}
+.branding2 {
+  background: white;
+  height: 80vh;
+  width: 100%;
+  position: relative;
+}
+div.branding2-cont {
+  display: flex;
+  align-items: center;
+  height: 80vh;
+  width: auto;
+  margin-left: 2rem;
+}
+.branding3 {
+  background: #242424;
+  background-image: url("../img/bg-img-branding2.jpg");
+  background-size: cover;
+  background-position: center top;
+  background-attachment: fixed;
+
+  display: flex;
+  align-items: center;
+  height: 80vh;
+  width: 100%;
+}
+#cta1-2 {
+  position: absolute;
+  height: 90vh;
+  top: -5vh;
+  -webkit-box-shadow: 0rem 0.5rem 1.5rem #111111;
+  box-shadow: 0rem 0.5rem 1.5rem #111111;
+  width: auto;
+}
+#cta-clientes .logo-cliente {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/*=========== BRANDING =============*/
 
 
 /*==================================================
@@ -1614,6 +1674,49 @@ HEADER
 
 
 /*==================================================
+MERCADEO
+==================================================*/
+.mercadeo {
+  background: #242424;
+  background-image: url("../img/bg-img-digital01.jpg");
+  background-size: cover;
+  background-position: center top;
+  background-attachment: fixed;
+
+  display: flex;
+  align-items: center;
+  height: 90vh;
+  width: 100%;
+}
+.mercadeo2 {
+  background: white;
+  height: 80vh;
+  width: 100%;
+  position: relative;
+}
+div.mercadeo2-cont {
+  display: flex;
+  align-items: center;
+  height: 80vh;
+  width: auto;
+  margin-left: 2rem;
+}
+.mercadeo3 {
+  background: #242424;
+  background-image: url("../img/bg-img-digital02.jpg");
+  background-size: cover;
+  background-position: center top;
+  background-attachment: fixed;
+
+  display: flex;
+  align-items: center;
+  height: 80vh;
+  width: 100%;
+}
+
+/*=========== MERCADEO =============*/
+
+/*==================================================
 SEARCH / BUSCADOR DOMINIOS
 ==================================================*/
 .custom-search-form {
@@ -1877,7 +1980,7 @@ SERVICIO / SERVICES
   left:0;
   width:100%;
   height:100%;
-  background:#D8A205;
+  background:#b28400;
   opacity:0;
   -webkit-transition: all 0.8s ease;
   -o-transition: all 0.8s ease;
@@ -1889,7 +1992,7 @@ SERVICIO / SERVICES
   left:0;
   width:100%;
   height:100%;
-  background:#0086F8;
+  background:#005dad;
   opacity:0;
   -webkit-transition: all 0.8s ease;
   -o-transition: all 0.8s ease;
@@ -1901,14 +2004,14 @@ SERVICIO / SERVICES
   left:0;
   width:100%;
   height:100%;
-  background:#00A94B;
+  background:#00873b;
   opacity:0;
   -webkit-transition: all 0.8s ease;
   -o-transition: all 0.8s ease;
   transition: all 0.8s ease;
 }
 
-#web-ejemplos .card-hover:hover img {
+#web-ejemplos .card-hover:hover img.img-fondo {
   -webkit-transform: scale(1.1);
       -ms-transform: scale(1.1);
           transform: scale(1.1);
@@ -1917,13 +2020,13 @@ SERVICIO / SERVICES
   transition: all 0.8s ease;
 }
 
-#web-ejemplos .card-hover:hover .item-texto{
-  opacity:0;
+/*#web-ejemplos .card-hover:hover .item-texto{
+  opacity:1;
   position: absolute;
   -webkit-transform: translateY(25%);
       -ms-transform: translateY(25%);
           transform: translateY(25%);
-}
+}*/
 #web-ejemplos .card-hover:hover #mascara1{
   opacity:0.4;
 }

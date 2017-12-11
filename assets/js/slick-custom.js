@@ -81,6 +81,17 @@ $('.contactos-img2-carrusel').slick({
   adaptiveHeight: true
 });
 
+//Carrusel Branding
+$('.clientes-branding').slick({
+  arrows: false,
+  dots: false,
+  autoplay: true,
+  autoplaySpeed: 3000,
+  infinite: true,
+  slidesToShow: 5,
+  slidesToScroll: 3
+});
+
 //Carrusel Briefing
 $('.briefing-carrusel').slick({
   dots: false,

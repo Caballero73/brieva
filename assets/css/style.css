@@ -2090,6 +2090,54 @@ MEDIA QUERY
   html {
     font-size: 6px;
   }
+  /*
+  navbar
+   */
+  #tu-dominio{
+    display: none;
+  }
+
+  #menu-agencia{
+    margin-top: 50px;
+  }
+
+  #datos{
+    display: none;
+  }
+  
+  #icono-hora{
+    display: none;
+  }
+  #hora{
+    width: 26rem;
+  }
+  #texto-hora{
+    font-size: 2.0rem;
+    width: 26rem;
+  }
+
+  /*
+  navbar
+   */
+  .texto-5{
+    font-size: 4rem;
+  }
+  .mt-14{
+    margin-top: 6rem;
+  }
+  .mb-10{
+    margin-bottom: 4rem;
+  }
+  .texto-5{
+    font-size: 3.5rem;
+  }
+  #contactos div.contactos-services-cont div.wip{
+    position: static;
+  }
+  #formulario{
+    padding-top: 10rem;
+    padding-bottom: 13rem;
+  }
 }
 /*Fin Celular*/
 /*Tablet vertical*/

@@ -2273,12 +2273,16 @@ MEDIA QUERY
   html {
     font-size: 6px;
   }
+
   /*
-  navbar
+  COMIENZO SUCCESS.HTML
    */
-  #tu-dominio{
-    display: none;
-  }
+
+
+  /*
+  comienzo de menu
+   */
+  
 
   #menu-agencia{
     margin-top: 50px;
@@ -2300,7 +2304,7 @@ MEDIA QUERY
   }
 
   /*
-  navbar
+  fin de menu
    */
   .texto-5{
     font-size: 4rem;
@@ -2321,6 +2325,10 @@ MEDIA QUERY
     padding-top: 10rem;
     padding-bottom: 13rem;
   }
+
+  /*
+  FIN SUCCESS.HTML
+   */
 }
 /*Fin Celular*/
 /*Tablet vertical*/

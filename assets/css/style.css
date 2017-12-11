@@ -2296,6 +2296,20 @@ MEDIA QUERY
   .contactos-img2-label {
     font-size: 2.5rem;
   }
+  .contactos-img2-direccion {
+    font-size: 3rem;
+  }
+  .contactos-img2-telefono {
+    font-size: 2.8rem;
+  }
+  .contactos-menu-redes a {
+    font-family: sfreg,sans-serif;
+    font-size: 2.3rem;
+    width: 23%;
+  }
+  .contactos-img2-mapa {
+    font-size: 2.8rem;
+  }
   #cont-logotipo {
     margin-top: 2.5rem;
     position: fixed;
@@ -2366,7 +2380,73 @@ MEDIA QUERY
     background-position: center top; 
   }
   .logo-cliente {
-  height: 27.5rem;
+    height: 27.5rem;
+  }
+
+  /*COMIENZO SUCCESS.HTML*/
+  /*comienzo de menu*/  
+
+  #menu-agencia{
+    margin-top: 50px;
+  }
+
+  #hora{
+    width: 26rem;
+  }
+  #texto-hora{
+    font-size: 2.0rem;
+    width: 26rem;
+  }
+
+  /*exitos-galeria*/
+  .texto-5{
+    font-size: 4rem;
+  }
+  .mt-14{
+    margin-top: 6rem;
+  }
+  .mb-10{
+    margin-bottom: 4rem;
+  }
+  .texto-5{
+    font-size: 3.5rem;
+  }
+  .portfolio-p .filter{
+    margin-bottom: 3rem;
+  }
+
+  
+  /*section de casos*/
+  .casos-cta{
+    padding-bottom: 10rem;
+    padding-top: 10rem;
+  }
+  
+  
+  /*contactos*/
+  #contactos div.contactos-services-cont div.wip{
+    position: static;
+    height: 33rem;
+    padding:2rem 4rem;
+    width: 58rem;
+  }
+  #formulario{
+    padding-top: 10rem;
+    padding-bottom: 13rem;
+  }
+
+ 
+  /*FIN SUCCESS.HTML*/
+  
+  /*COMIENZO DE SUCCESS_EJ.HTML*/
+  
+}
+/*Fin Celular*/
+/*Tablet vertical*/
+@media (min-width: 400px) and (max-width: 767px){
+  html {
+    font-size: 7px;
+>>>>>>> 7822df043dbb17546eb9e23f921fd459ea966af6
   }
 }
 /*Fin Celular*/

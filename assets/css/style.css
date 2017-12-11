@@ -506,6 +506,9 @@ a.link-blanco-verde:hover {
   font-size: 6.5rem;
   line-height: 1.2;
 }
+.w70 {
+  width: 70% !important;
+}
 
 /*=========== GENERALES =============*/
 
@@ -2269,19 +2272,105 @@ TEAM
 MEDIA QUERY
 ==================================================*/
 /*Celular*/
-@media (min-width: 0px) and (max-width: 399px){
+@media (min-width: 0px) and (max-width: 767px){
   html {
     font-size: 6px;
   }
-}
-/*Fin Celular*/
-/*Tablet vertical*/
-@media (min-width: 400px) and (max-width: 767px){
-  html {
-    font-size: 7px;
+  a.link-rojo-azul,a.link-azul-rojo,a.link-azul-gris,a.link-blanco-verde {
+    font-size: 3rem;
+  }a.link-rojo-azul:hover,a.link-azul-rojo:hover,a.link-azul-gris:hover,a.link-blanco-verde:hover {
+    font-size: 3rem;
+  }
+  .btn-lg {
+    height: 9rem;
+    width: 100%;
+  }
+  .btn-transparente {
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+  .contactos-img2 {
+    background-color: #f60e40;
+    position: relative;
+    width: 100%;
+  }
+  .contactos-img2-label {
+    font-size: 2.5rem;
+  }
+  #cont-logotipo {
+    margin-top: 2.5rem;
+    position: fixed;
+    z-index: 200;
+  }
+  #cont-flecha {
+    background-color: #ef174f;
+    position: absolute;
+    height: 15rem;
+    width: 11rem;
+    top: -11rem;
+    right: 0;
+    z-index: 7;
+  }
+  #exito {
+    background: transparent;
+    height: 60vh;
+  }
+  #exito-carrusel-slide1 {
+    background-size: auto 100%;
+    height: 60vh;
+  }
+  #exito-carrusel-slide2 {
+    background-size: auto 100%;
+    height: 60vh;
+  }
+  .exito-carrusel-link {
+    color: #1254C6;
+    display: block;
+    font-family: sfpro,sans-serif;
+    font-size: 3rem;
+    margin: 2rem 0;
+    padding: 2rem 0;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    text-align: center;
+    text-decoration: underline;
+    width: 100%;
+    background-color: rgba(255,255,255,0.5);
+  }
+  .exito-carrusel-boton {
+    color: white;
+    border: 0.1rem solid white;
+    display: block;
+    font-family: sfpro,sans-serif;
+    font-size: 3rem;
+    margin: 0;
+    padding: 2rem 0;
+    text-align: center;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    width: 100%;
+    background-color: rgba(0,0,0,0.4);
+  }
+  .exito-carrusel-cont-texto {
+    margin-top: 10rem;
+    text-align: right;
+    transform: translateX(0rem);
+  }
+  .exito-carrusel-titulo2 {
+    transform: translateX(0rem);
+  }
+  .header-home {
+    background-image: url("../img/video.jpg");
+    background-size: auto 100%;
+    background-position: center top; 
+  }
+  .logo-cliente {
+  height: 27.5rem;
   }
 }
-/*Fin Tablet Vertical*/
+/*Fin Celular*/
+
 /*Tablet*/
 @media (min-width: 768px) and (max-width: 1024px){
   html {

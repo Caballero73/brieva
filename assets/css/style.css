@@ -2384,12 +2384,10 @@ MEDIA QUERY
   }
 
   /*COMIENZO SUCCESS.HTML*/
-  /*comienzo de menu*/  
-
+  /*Menu*/
   #menu-agencia{
     margin-top: 50px;
   }
-
   #hora{
     width: 26rem;
   }
@@ -2397,8 +2395,7 @@ MEDIA QUERY
     font-size: 2.0rem;
     width: 26rem;
   }
-
-  /*exitos-galeria*/
+  /*Exitos-galeria*/
   .texto-5{
     font-size: 4rem;
   }
@@ -2415,15 +2412,13 @@ MEDIA QUERY
     margin-bottom: 3rem;
   }
 
-  
-  /*section de casos*/
+  /*Section de casos*/
   .casos-cta{
     padding-bottom: 10rem;
     padding-top: 10rem;
-  }
+  } 
   
-  
-  /*contactos*/
+  /*Contactos*/
   #contactos div.contactos-services-cont div.wip{
     position: static;
     height: 33rem;
@@ -2433,10 +2428,9 @@ MEDIA QUERY
   #formulario{
     padding-top: 10rem;
     padding-bottom: 13rem;
-  }
-
- 
+  } 
   /*FIN SUCCESS.HTML*/
+
   
   /*COMIENZO DE SUCCESS_EJ.HTML*/
   
@@ -2446,7 +2440,6 @@ MEDIA QUERY
 @media (min-width: 400px) and (max-width: 767px){
   html {
     font-size: 7px;
->>>>>>> 7822df043dbb17546eb9e23f921fd459ea966af6
   }
 }
 /*Fin Celular*/

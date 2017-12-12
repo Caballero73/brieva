@@ -2471,7 +2471,8 @@ MEDIA QUERY
     margin-top: 18rem;
   }
   .mt-10{
-    margin-top: 18rem;
+    margin-top: 7rem;
+
   }
   .mb-10{
     margin-bottom: 4rem;
@@ -2502,6 +2503,14 @@ MEDIA QUERY
   }
   #search-parallax{
     background-position: -900rem 5rem;
+  }
+
+  #cta1{
+  margin-top: 6rem;
+  }
+  #link-gris{
+    font-size: 2rem!important;
+    padding-right: 4px;    
   }
 }
 

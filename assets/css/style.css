@@ -2423,6 +2423,9 @@ MEDIA QUERY
   #hora{
     width: 26rem;
   }
+  #datos{
+    display: none;
+  }
   #texto-hora{
     font-size: 2.0rem;
     width: 26rem;
@@ -2432,7 +2435,10 @@ MEDIA QUERY
     font-size: 4rem;
   }
   .mt-14{
-    margin-top: 6rem;
+    margin-top: 18rem;
+  }
+  .mt-10{
+    margin-top: 18rem;
   }
   .mb-10{
     margin-bottom: 4rem;

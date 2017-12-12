@@ -2440,7 +2440,7 @@ MEDIA QUERY
     display: none;
   }
   #tu-dominio{
-    margin-top: 10rem;
+    margin-top: 8rem;
   }
   #texto-hora{
     font-size: 2.0rem;
@@ -2475,12 +2475,12 @@ MEDIA QUERY
   
    
   /*FIN SUCCESS.HTML*/
-
-  
-
   
   #contactos div.contactos-search-cont div.card{
     position: static;
+    width: 100%;
+  
+    
   }
 
   .custom-search-form input{
@@ -2490,12 +2490,30 @@ MEDIA QUERY
     width: 10.8rem;
   }
   #search-parallax{
-    background-position: -913rem 5rem;
+    background-position: -900rem 5rem;
+
+
   }
-  
- 
+  .contactos-menu-redes a{
+    display: block;
+    
+  }
+  a.link-rojo-azul, a.link-azul-rojo, a.link-azul-gris, a.link-blanco-verde{
+    font-size: 2.5rem;
+  }
+
+
   
 }
+
+@media (min-width: 400px) and (max-width: 767px){
+  #search-parallax{
+    background-position: -928rem 5rem;
+
+  }
+}
+
+
 /*Fin Celular*/
 /*Tablet vertical*/
 @media (min-width: 400px) and (max-width: 767px){

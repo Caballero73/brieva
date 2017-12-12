@@ -2277,9 +2277,9 @@ MEDIA QUERY
     font-size: 6px;
   }
   a.link-rojo-azul,a.link-azul-rojo,a.link-azul-gris,a.link-blanco-verde {
-    font-size: 3rem;
+    font-size: 3rem !important;
   }a.link-rojo-azul:hover,a.link-azul-rojo:hover,a.link-azul-gris:hover,a.link-blanco-verde:hover {
-    font-size: 3rem;
+    font-size: 3rem !important;
   }
   .btn-lg {
     height: 9rem;
@@ -2393,7 +2393,6 @@ MEDIA QUERY
   .exito-carrusel-titulo2 {
     transform: translateX(0rem);
   }
-
   footer p {
     font-size: 1.8rem !important;
   }
@@ -2427,7 +2426,6 @@ MEDIA QUERY
     margin-top: 2.5rem;
     margin-left: 4rem;
   }
-
   /*COMIENZO SUCCESS.HTML*/
   /*Menu*/
   #menu-agencia{
@@ -2453,7 +2451,6 @@ MEDIA QUERY
   .mt-14{
     margin-top: 18rem;
   }
-
   .mt-10{
     margin-top: 18rem;
   }
@@ -2466,23 +2463,18 @@ MEDIA QUERY
   .portfolio-p .filter{
     margin-bottom: 3rem;
   }
-
+  
   /*Section de casos*/
   .casos-cta{
     padding-bottom: 10rem;
     padding-top: 10rem;
   } 
   
-   
   /*FIN SUCCESS.HTML*/
-  
   #contactos div.contactos-search-cont div.card{
     position: static;
     width: 100%;
-  
-    
   }
-
   .custom-search-form input{
     font-size: 2.7rem;
   }
@@ -2491,19 +2483,10 @@ MEDIA QUERY
   }
   #search-parallax{
     background-position: -900rem 5rem;
-
-
   }
   .contactos-menu-redes a{
     display: block;
-    
   }
-  a.link-rojo-azul, a.link-azul-rojo, a.link-azul-gris, a.link-blanco-verde{
-    font-size: 2.5rem;
-  }
-
-
-  
 }
 
 @media (min-width: 400px) and (max-width: 767px){

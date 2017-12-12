@@ -2462,15 +2462,11 @@ MEDIA QUERY
   
    
   /*FIN SUCCESS.HTML*/
-
-  
-
   
   #contactos div.contactos-search-cont div.card{
     position: static;
     width: 100%;
-    text-align: center;
-
+  
     
   }
 
@@ -2489,9 +2485,8 @@ MEDIA QUERY
     display: block;
     
   }
-  .contactos-menu-redes{
-    text-align: -webkit-center;
-    
+  a.link-rojo-azul, a.link-azul-rojo, a.link-azul-gris, a.link-blanco-verde{
+    font-size: 2.5rem;
   }
 
 

@@ -2281,6 +2281,8 @@ MEDIA QUERY
   }
   a.link-rojo-azul,a.link-azul-rojo,a.link-azul-gris,a.link-blanco-verde {
     font-size: 3rem !important;
+  }a.link-rojo-azul:hover,a.link-azul-rojo:hover,a.link-azul-gris:hover,a.link-blanco-verde:hover {
+    font-size: 3rem !important;
   }
   a.link-rojo-azul:hover,a.link-azul-rojo:hover,a.link-azul-gris:hover,a.link-blanco-verde:hover {
     font-size: 3rem !important;
@@ -2510,10 +2512,8 @@ MEDIA QUERY
   }
   #link-gris{
     font-size: 2rem!important;
-    padding-right: 4px;
-    
+    padding-right: 4px;    
   }
-
 }
 
 @media (min-width: 400px) and (max-width: 767px){

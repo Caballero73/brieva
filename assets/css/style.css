@@ -2519,7 +2519,22 @@ MEDIA QUERY
   .mt-3{
     margin-top: 9rem;
   }
-  
+  .img-responsive{
+    height: 300px;
+    margin-top: 0;
+  }
+  .formulario input.campo{
+    margin-bottom: 3rem;
+    font-size: 2rem;
+    
+  }
+  #ultima-img{
+      margin-top: 15px!important; 
+  }
+  .contactos-blog{
+    margin-top: -5rem;
+  }
+
 
 }
 

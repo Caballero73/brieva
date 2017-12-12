@@ -2284,7 +2284,7 @@ MEDIA QUERY
   
 
   #menu-agencia{
-    margin-top: 50px;
+    margin-top: 70px;
   }
 
   #hora{
@@ -2345,7 +2345,22 @@ MEDIA QUERY
   
   /*
   COMIENZO DE SUCCESS_EJ.HTML
+
    */
+  .mt-10{
+    margin-top: 6rem;
+  }
+  
+  /*
+  COMIENZO DE SEARCH.HTML
+
+   */
+  
+  #contactos div.contactos-search-cont div.card{
+    position: static;
+  }
+  
+ 
   
 }
 /*Fin Celular*/

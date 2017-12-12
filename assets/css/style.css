@@ -2288,6 +2288,7 @@ MEDIA QUERY
   .btn-transparente {
     background-color: rgba(0, 0, 0, 0.4);
   }
+  /*Contactos Index*/
   .contactos-img2 {
     background-color: #f60e40;
     position: relative;
@@ -2310,6 +2311,15 @@ MEDIA QUERY
   .contactos-img2-mapa {
     font-size: 2.8rem;
   }
+  /*Contactos Index*/
+  /*Contactos WIP*/
+  #contactos div.contactos-services-cont div.wip{
+    position: static;
+    height: 33rem;
+    padding:2rem 4rem;
+    width: 58rem;
+  }
+  /*Contactos WIP*/
   #cont-logotipo {
     margin-top: 2.5rem;
     position: fixed;
@@ -2374,6 +2384,25 @@ MEDIA QUERY
   .exito-carrusel-titulo2 {
     transform: translateX(0rem);
   }
+
+  footer p {
+    font-size: 1.8rem !important;
+  }
+  footer p a {
+    display: block;
+    margin-bottom: -2rem !important;
+    margin-top: 1rem !important;
+    font-size: 2rem !important;
+  }
+  .footer-cont img {
+    height: 10rem;
+    width: auto;
+    margin-right: 2rem;
+  }
+  #formulario{
+    padding-top: 10rem;
+    padding-bottom: 13rem;
+  }
   .header-home {
     background-image: url("../img/video.jpg");
     background-size: auto 100%;
@@ -2418,17 +2447,7 @@ MEDIA QUERY
     padding-top: 10rem;
   } 
   
-  /*Contactos*/
-  #contactos div.contactos-services-cont div.wip{
-    position: static;
-    height: 33rem;
-    padding:2rem 4rem;
-    width: 58rem;
-  }
-  #formulario{
-    padding-top: 10rem;
-    padding-bottom: 13rem;
-  } 
+   
   /*FIN SUCCESS.HTML*/
 
   

@@ -2337,6 +2337,9 @@ MEDIA QUERY
   #cta3 a {
     font-size: 3rem;
   }
+  #datos {
+    display: none;
+  }
   #exito {
     background: transparent;
     height: 60vh;
@@ -2413,6 +2416,13 @@ MEDIA QUERY
   }
   .logo-cliente {
     height: 27.5rem;
+  }
+  #menu-redes a {
+    display: block;
+    font-size: 2.5rem;
+    width: 100%;
+    margin-top: 2.5rem;
+    margin-left: 4rem;
   }
 
   /*COMIENZO SUCCESS.HTML*/

@@ -2317,7 +2317,10 @@ MEDIA QUERY
     position: static;
     height: 33rem;
     padding:2rem 4rem;
-    width: 58rem;
+    width: 49rem;
+  }
+  #aboutus-rrss{
+    margin-top: -20px;
   }
   /*Contactos WIP*/
   #cont-logotipo {

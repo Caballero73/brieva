@@ -4,7 +4,7 @@
 	<title>Grupo Brieva</title>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
 	<meta name="description" content="Grandes Creativos que sabemos Hacer Marcas Exitosas">
 	<meta name="author" content="slicegroup.xyz">
 	<link rel="shortcut icon" href="assets/img/favicon.ico">
@@ -29,7 +29,7 @@
 	*************************
 	HEADER
 	********************* -->
-	<header id="header">
+	<header id="header" class="header-home">
 		<section class="container" style="position: relative;">
 			<div id="cont-logotipo">
 				<div id="logotipo">
@@ -45,7 +45,7 @@
 					</div>									
 				</div><!-- /.logotipo -->
 
-				<div id="hora">
+				<div id="hora" class="hidden-xs">
 					<div id="icono-hora"><img src="assets/img/icono_sol.png"></div>
 					<div id="texto-hora"><span>3.39 PM. Abierto ahora</span></div>
 				</div><!-- /.hora -->
@@ -91,9 +91,9 @@
         		</div><!-- /.datos -->
         	</div>
         </div>
-      </nav>              
+      </nav>
 
-
+			<div class="visible-xs" style="height: 5rem"></div>
 			<div id="cont-texto">
 				<p>Somos una Agencia de Publicidad Digital</p>
 				<p id="grande">Grandes Creativos<br> que sabemos<br> Hacer Marcas Exitosas</p>
@@ -105,7 +105,7 @@
 			</div>
 		</section><!-- /.container -->
 
-		<video autoplay="true" loop="true" poster="assets/img/video.jpg">
+		<video class="hidden-xs" autoplay="true" loop="true" poster="assets/img/video.jpg">
 			<source src="assets/videos/video.webm" type="video/webm">
 			<source src="assets/videos/video.mp4" type="video/mp4">
 			Tu navegador no soporta video con HTML5
@@ -240,47 +240,62 @@
 				<p class="regular-4rem">Un <span class="color-rojo">Grupo</span> de creativos con ideas <span class="color-verde">gigantes</span></p>
 				<p class="regular-2rem">Con diseño funcional, estrategia y experiencia diseñamos y desarrollamos campañas de mercadeo digital, páginas web inteligentes y concepto visual de marca #branding</p>
 				<br><br>
-				<a href="success.html" target="_top">Ver Proyectos de Éxito</a>
+				<a class="link-azul-rojo" href="success.html" target="_top">Ver Proyectos de Éxito</a>
 			</div>			
 		</div>
 	</section>
 
 	<section id="logo-clientes">
-		<div class="container">
+		<div class="container hidden-xs">
 			<div class="row">
-				<div class="col-md-3 col-sm-4 col-xs-6 logo-cliente" ><img class="img-responsive center-block" src="assets/img/cocacola.png"></div>
-				<div class="col-md-3 col-sm-4 col-xs-6 logo-cliente" ><img class="img-responsive center-block" src="assets/img/bonsai.png"></div>
-				<div class="col-md-3 col-sm-4 col-xs-6 logo-cliente" ><img class="img-responsive center-block" src="assets/img/sangyoong.png"></div>
-				<div class="col-md-3 col-sm-4 col-xs-6 logo-cliente" ><img class="img-responsive center-block" src="assets/img/delipostres.png"></div>
-				<div class="col-md-3 col-sm-4 col-xs-6 logo-cliente" ><img class="img-responsive center-block" src="assets/img/nao.png"></div>
-				<div class="col-md-3 col-sm-4 col-xs-6 logo-cliente" ><img class="img-responsive center-block" src="assets/img/lazarp.png"></div>
-				<div class="col-md-3 col-sm-4 col-xs-6 logo-cliente" ><img class="img-responsive center-block" src="assets/img/hotlcaribe.png"></div>
-				<div class="col-md-3 col-sm-4 col-xs-6 logo-cliente" ><img class="img-responsive center-block" src="assets/img/arismendy.png"></div>
-				<div class="col-md-3 col-sm-4 col-xs-6 logo-cliente" ><img class="img-responsive center-block" src="assets/img/evoca.png"></div>
-				<div class="col-md-3 col-sm-4 col-xs-6 logo-cliente" ><img class="img-responsive center-block" src="assets/img/riosur.png"></div>
-				<div class="col-md-3 col-sm-4 col-xs-6 logo-cliente" ><img class="img-responsive center-block" src="assets/img/barugrande.png"></div>
-				<div class="col-md-3 col-sm-4 col-xs-6 logo-cliente" ><img class="img-responsive center-block" src="assets/img/mujeres.png"></div>
-				<div class="col-md-3 col-sm-4 col-xs-6 logo-cliente" ><img class="img-responsive center-block" src="assets/img/clinton.png"></div>				
+				<div class="col-md-3 col-sm-4 logo-cliente" ><img class="img-responsive center-block" src="assets/img/cocacola.png"></div>
+				<div class="col-md-3 col-sm-4 logo-cliente" ><img class="img-responsive center-block" src="assets/img/bonsai.png"></div>
+				<div class="col-md-3 col-sm-4 logo-cliente" ><img class="img-responsive center-block" src="assets/img/sangyoong.png"></div>
+				<div class="col-md-3 col-sm-4 logo-cliente" ><img class="img-responsive center-block" src="assets/img/delipostres.png"></div>
+				<div class="col-md-3 col-sm-4 logo-cliente" ><img class="img-responsive center-block" src="assets/img/nao.png"></div>
+				<div class="col-md-3 col-sm-4 logo-cliente" ><img class="img-responsive center-block" src="assets/img/lazarp.png"></div>
+				<div class="col-md-3 col-sm-4 logo-cliente" ><img class="img-responsive center-block" src="assets/img/hotlcaribe.png"></div>
+				<div class="col-md-3 col-sm-4 logo-cliente" ><img class="img-responsive center-block" src="assets/img/arismendy.png"></div>
+				<div class="col-md-3 col-sm-4 logo-cliente" ><img class="img-responsive center-block" src="assets/img/evoca.png"></div>
+				<div class="col-md-3 col-sm-4 logo-cliente" ><img class="img-responsive center-block" src="assets/img/riosur.png"></div>
+				<div class="col-md-3 col-sm-4 logo-cliente" ><img class="img-responsive center-block" src="assets/img/barugrande.png"></div>
+				<div class="col-md-3 col-sm-4 logo-cliente" ><img class="img-responsive center-block" src="assets/img/mujeres.png"></div>
+				<div class="col-md-3 col-sm-4 logo-cliente" ><img class="img-responsive center-block" src="assets/img/clinton.png"></div>				
 			</div><!-- /.row -->
-		</div>		
-	</section>
+		</div>
+
+		<!-- Carrusel de Clientes -->
+			<div class="clientes-branding mt-8 mb-2 visible-xs">
+				<div class=" logo-cliente" ><img class="img-responsive center-block" src="assets/img/cocacola.png"></div>
+				<div class=" logo-cliente" ><img class="img-responsive center-block" src="assets/img/bonsai.png"></div>
+				<div class=" logo-cliente" ><img class="img-responsive center-block" src="assets/img/sangyoong.png"></div>
+				<div class=" logo-cliente" ><img class="img-responsive center-block" src="assets/img/delipostres.png"></div>
+				<div class=" logo-cliente" ><img class="img-responsive center-block" src="assets/img/nao.png"></div>
+				<div class=" logo-cliente" ><img class="img-responsive center-block" src="assets/img/lazarp.png"></div>
+				<div class=" logo-cliente" ><img class="img-responsive center-block" src="assets/img/hotlcaribe.png"></div>
+				<div class=" logo-cliente" ><img class="img-responsive center-block" src="assets/img/arismendy.png"></div>
+				<div class=" logo-cliente" ><img class="img-responsive center-block" src="assets/img/evoca.png"></div>
+				<div class=" logo-cliente" ><img class="img-responsive center-block" src="assets/img/riosur.png"></div>
+				<div class=" logo-cliente" ><img class="img-responsive center-block" src="assets/img/barugrande.png"></div>
+				<div class=" logo-cliente" ><img class="img-responsive center-block" src="assets/img/mujeres.png"></div>
+				<div class=" logo-cliente" ><img class="img-responsive center-block" src="assets/img/clinton.png"></div>
+			</div><!-- /.Carrusel de Clientes -->	
+	</section><!-- /.logo-clientes -->
 
 	<section id="cta3">		
 		<div class="container" style="position: relative;">
 			<div class="cta3-contenedor">
-				<div>
-					<p class="cta3-titulo">Creamos productos enfocados<br>en la experiencia del usuario</p>
+				<div class="col-md-6 col-sm-7 col-xs-12">
+					<p class="cta3-titulo">Creamos productos enfocados en la experiencia del usuario</p>
 					<p class="cta3-texto">
 						Diseñamos con pasión.<br>
-						Analizamos el comportamiento del público objetivo<br>
-						con respecto a tu marca, sus intereses y búsquedas<br>
-						para luego comunicar a través del diseño digital.
+						Analizamos el comportamiento del público objetivo con respecto a tu marca, sus intereses y búsquedas para luego comunicar a través del diseño digital.
 					</p>
 					<p></p>
 					<a href="aboutus.html" target="_top">Más acerca de nosotros</a>
 				</div>
 			</div><!-- /.cta3-contenedor -->
-			<div class="tarjeta">
+			<div class="tarjeta hidden-xs">
 				<div class="tarjeta-img">
 					<p>PROYECTOS REALIZADOS</p>
 					<img class="img-responsive" src="assets/img/img-exito.jpg" alt="Imagen diseñador">
@@ -289,8 +304,7 @@
 						<br><br>
 						<span class="tarjeta-img-texto-contenido">Diseñamos páginas web y productos digitales que inspiran a mejorar el diseño de imagen corporativa de tu negocio</span>						
 					</div>					
-				</div> 
-										
+				</div>										
 			</div><!-- /.tarjeta -->
 		</div><!-- /.container -->
 	</section><!-- /.cta3 -->
@@ -301,7 +315,7 @@
 			<div id="exito-carrusel-slide1">
 				<div class="container">					
 					<div class="row">
-						<div class="col-sm-6"></div>					
+						<div class="col-sm-6 hidden-xs"></div>					
 						<div class="col-sm-6 exito-carrusel-cont-texto">
 							<p class="exito-carrusel-titulo1">DISEÑO SITIO WEB UI/UX</p>
 							<div class="exito-carrusel-titulo2"><span class="previo"><i class="glyphicon glyphicon-chevron-left"></i></span><span>Evoca Hotels</span><span class="siguiente"><i class="glyphicon glyphicon-chevron-right"></i></span></div>
@@ -334,7 +348,7 @@
 	</section><!-- /.exito -->
 
 	<section id="contactos">
-		<div class="contactos-img1">
+		<div class="contactos-img1 hidden-xs">
 			
 		</div>
 		<div class="contactos-img2">

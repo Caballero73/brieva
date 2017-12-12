@@ -2284,6 +2284,15 @@ MEDIA QUERY
   }a.link-rojo-azul:hover,a.link-azul-rojo:hover,a.link-azul-gris:hover,a.link-blanco-verde:hover {
     font-size: 3rem !important;
   }
+  a.link-rojo-azul:hover,a.link-azul-rojo:hover,a.link-azul-gris:hover,a.link-blanco-verde:hover {
+    font-size: 3rem !important;
+  }
+  .aboutus-cta-cont p:first-child {
+    font-size: 2.8rem;
+  } 
+  .aboutus-cta-cont a {
+    font-size: 3rem;
+  } 
   .btn-lg {
     height: 9rem;
     width: 100%;
@@ -2414,6 +2423,9 @@ MEDIA QUERY
     padding-top: 10rem;
     padding-bottom: 13rem;
   }
+  #fotos1 {
+    display: none;
+  }
   .header-home {
     background-image: url("../img/video.jpg");
     background-size: auto 100%;
@@ -2428,6 +2440,12 @@ MEDIA QUERY
     width: 100%;
     margin-top: 2.5rem;
     margin-left: 4rem;
+  }
+  .team-fotos-items {
+    width: 100%;
+  }
+  .team-fotos-items div p:last-child{
+    font-size: 2.2rem;
   }
   /*COMIENZO SUCCESS.HTML*/
   /*Menu*/
@@ -2455,7 +2473,8 @@ MEDIA QUERY
     margin-top: 18rem;
   }
   .mt-10{
-    margin-top: 18rem;
+    margin-top: 7rem;
+
   }
   .mb-10{
     margin-bottom: 4rem;
@@ -2486,6 +2505,14 @@ MEDIA QUERY
   }
   #search-parallax{
     background-position: -900rem 5rem;
+  }
+
+  #cta1{
+  margin-top: 6rem;
+  }
+  #link-gris{
+    font-size: 2rem!important;
+    padding-right: 4px;    
   }
 }
 

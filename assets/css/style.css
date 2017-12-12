@@ -2334,6 +2334,9 @@ MEDIA QUERY
     right: 0;
     z-index: 7;
   }
+  #cta3 a {
+    font-size: 3rem;
+  }
   #exito {
     background: transparent;
     height: 60vh;

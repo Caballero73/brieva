@@ -2513,6 +2513,13 @@ MEDIA QUERY
     padding-right: 4px;
     
   }
+  .btn-lg{
+    margin-top: 10rem;
+  }
+  .mt-3{
+    margin-top: 9rem;
+  }
+  
 
 }
 

@@ -2268,19 +2268,29 @@ TEAM
 /*=========== TEAM =============*/
 
 
-/*==================================================
+
+/*==================================================================================
 MEDIA QUERY
-==================================================*/
+====================================================================================
+====================================================================================*/
+
 /*Celular*/
 @media (min-width: 0px) and (max-width: 767px){
   html {
     font-size: 6px;
   }
   a.link-rojo-azul,a.link-azul-rojo,a.link-azul-gris,a.link-blanco-verde {
-    font-size: 3rem;
-  }a.link-rojo-azul:hover,a.link-azul-rojo:hover,a.link-azul-gris:hover,a.link-blanco-verde:hover {
-    font-size: 3rem;
+    font-size: 3rem !important;
   }
+  a.link-rojo-azul:hover,a.link-azul-rojo:hover,a.link-azul-gris:hover,a.link-blanco-verde:hover {
+    font-size: 3rem !important;
+  }
+  .aboutus-cta-cont p:first-child {
+    font-size: 2.8rem;
+  } 
+  .aboutus-cta-cont a {
+    font-size: 3rem;
+  } 
   .btn-lg {
     height: 9rem;
     width: 100%;
@@ -2337,6 +2347,12 @@ MEDIA QUERY
     right: 0;
     z-index: 7;
   }
+  #cta3 a {
+    font-size: 3rem;
+  }
+  #datos {
+    display: none;
+  }
   #exito {
     background: transparent;
     height: 60vh;
@@ -2387,7 +2403,6 @@ MEDIA QUERY
   .exito-carrusel-titulo2 {
     transform: translateX(0rem);
   }
-
   footer p {
     font-size: 1.8rem !important;
   }
@@ -2406,6 +2421,9 @@ MEDIA QUERY
     padding-top: 10rem;
     padding-bottom: 13rem;
   }
+  #fotos1 {
+    display: none;
+  }
   .header-home {
     background-image: url("../img/video.jpg");
     background-size: auto 100%;
@@ -2414,7 +2432,19 @@ MEDIA QUERY
   .logo-cliente {
     height: 27.5rem;
   }
-
+  #menu-redes a {
+    display: block;
+    font-size: 2.5rem;
+    width: 100%;
+    margin-top: 2.5rem;
+    margin-left: 4rem;
+  }
+  .team-fotos-items {
+    width: 100%;
+  }
+  .team-fotos-items div p:last-child{
+    font-size: 2.2rem;
+  }
   /*COMIENZO SUCCESS.HTML*/
   /*Menu*/
   #menu-agencia{
@@ -2440,9 +2470,9 @@ MEDIA QUERY
   .mt-14{
     margin-top: 18rem;
   }
-
   .mt-10{
-    margin-top: 18rem;
+    margin-top: 7rem;
+
   }
   .mb-10{
     margin-bottom: 4rem;
@@ -2460,16 +2490,11 @@ MEDIA QUERY
     padding-top: 10rem;
   } 
   
-   
   /*FIN SUCCESS.HTML*/
-  
   #contactos div.contactos-search-cont div.card{
     position: static;
     width: 100%;
-  
-    
   }
-
   .custom-search-form input{
     font-size: 2.7rem;
   }
@@ -2477,27 +2502,18 @@ MEDIA QUERY
     width: 10.8rem;
   }
   #search-parallax{
-   display: none;
-
-
-  }
-  .contactos-search{
-    padding-top: 4rem;
+    background-position: -900rem 5rem;
   }
 
-  .texto-1_7{
-    font-size: 1.8rem;
+  #cta1{
+  margin-top: 6rem;
   }
-  .contactos-menu-redes a{
-    display: block;
+  #link-gris{
+    font-size: 2rem!important;
+    padding-right: 4px;
     
   }
-  a.link-rojo-azul, a.link-azul-rojo, a.link-azul-gris, a.link-blanco-verde{
-    font-size: 2.6rem;
-  }
 
-
-  
 }
 
 @media (min-width: 400px) and (max-width: 767px){

@@ -2426,6 +2426,9 @@ MEDIA QUERY
   #datos{
     display: none;
   }
+  #tu-dominio{
+    margin-top: 10rem;
+  }
   #texto-hora{
     font-size: 2.0rem;
     width: 26rem;
@@ -2437,6 +2440,7 @@ MEDIA QUERY
   .mt-14{
     margin-top: 18rem;
   }
+
   .mt-10{
     margin-top: 18rem;
   }
@@ -2464,6 +2468,16 @@ MEDIA QUERY
   
   #contactos div.contactos-search-cont div.card{
     position: static;
+  }
+
+  .custom-search-form input{
+    font-size: 2.7rem;
+  }
+  .custom-search-form .input-group-btn button{
+    width: 10.8rem;
+  }
+  #search-parallax{
+    background-position: -913rem 5rem;
   }
   
  

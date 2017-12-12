@@ -2317,7 +2317,10 @@ MEDIA QUERY
     position: static;
     height: 33rem;
     padding:2rem 4rem;
-    width: 58rem;
+    width: 49rem;
+  }
+  #aboutus-rrss{
+    margin-top: -20px;
   }
   /*Contactos WIP*/
   #cont-logotipo {
@@ -2428,10 +2431,16 @@ MEDIA QUERY
   /*COMIENZO SUCCESS.HTML*/
   /*Menu*/
   #menu-agencia{
-    margin-top: 50px;
+    margin-top: 70px;
   }
   #hora{
     width: 26rem;
+  }
+  #datos{
+    display: none;
+  }
+  #tu-dominio{
+    margin-top: 10rem;
   }
   #texto-hora{
     font-size: 2.0rem;
@@ -2442,7 +2451,11 @@ MEDIA QUERY
     font-size: 4rem;
   }
   .mt-14{
-    margin-top: 6rem;
+    margin-top: 18rem;
+  }
+
+  .mt-10{
+    margin-top: 18rem;
   }
   .mb-10{
     margin-bottom: 4rem;
@@ -2464,7 +2477,23 @@ MEDIA QUERY
   /*FIN SUCCESS.HTML*/
 
   
-  /*COMIENZO DE SUCCESS_EJ.HTML*/
+
+  
+  #contactos div.contactos-search-cont div.card{
+    position: static;
+  }
+
+  .custom-search-form input{
+    font-size: 2.7rem;
+  }
+  .custom-search-form .input-group-btn button{
+    width: 10.8rem;
+  }
+  #search-parallax{
+    background-position: -913rem 5rem;
+  }
+  
+ 
   
 }
 /*Fin Celular*/

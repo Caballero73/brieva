@@ -2359,7 +2359,7 @@ MEDIA QUERY
   .contactos-img2-mapa {
     font-size: 2.8rem;
   }
-  /*Contactos Index*/
+  /*Fin Contactos Index*/
   /*Contactos WIP*/
   #contactos div.contactos-services-cont div.wip{
     position: static;
@@ -2367,10 +2367,10 @@ MEDIA QUERY
     padding:2rem 4rem;
     width: 100%;
   }
+  /*Fin Contactos WIP*/
   #aboutus-rrss{
     margin-top: -26px;
     height: 4rem;
-
   }
   /*Contactos WIP*/
   #cont-logotipo {
@@ -2505,6 +2505,29 @@ MEDIA QUERY
   }
   .team-fotos-items div p:last-child{
     font-size: 2.2rem;
+  }
+  #web-ejemplos {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  #web-ejemplos .columna1, #web-ejemplos .columna2 {
+    max-width: 100%;
+    position: relative;
+  }
+  #web-ejemplos .item {
+    width: auto;
+    overflow: hidden;
+    position: relative;
+    height: 60vh;
+  }
+  #web-ejemplos .item img {
+    max-width: none;
+    display: block;
+    height: 100%;
+  }
+  #web-ejemplos .columna2 .item img.img-fondo {
+    transform: translateX(-25vw);
   }
 
   /*COMIENZO SUCCESS.HTML*/

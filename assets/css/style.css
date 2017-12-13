@@ -134,6 +134,9 @@ a.link-blanco-verde:hover {
   -o-transition: all .5s ease;
   transition: all .5s ease;
 }
+#aboutus-foto-movil {
+  display: none;
+}
 .botones {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2290,7 +2293,19 @@ MEDIA QUERY
   } 
   .aboutus-cta-cont a {
     font-size: 3rem;
-  } 
+  }
+  #aboutus-foto {
+    display: none;
+  }
+  #aboutus-foto-movil {
+    display: block;
+  }
+  #aboutus-rrss .fa,#aboutus-rrss .fa:hover {
+    font-size: 7.2rem;
+  }
+  #aboutus-rrss {
+  padding: 6rem 0 3rem 0 !important;
+  }
   .btn-lg {
     height: 9rem;
     width: 100%;
@@ -2298,6 +2313,7 @@ MEDIA QUERY
   .btn-transparente {
     background-color: rgba(0, 0, 0, 0.4);
   }
+
   /*Contactos Index*/
   .contactos-img2 {
     background-color: #f60e40;
@@ -2346,6 +2362,9 @@ MEDIA QUERY
     top: -11rem;
     right: 0;
     z-index: 7;
+  }
+  #cta1 {
+    padding-top: 0rem !important;
   }
   #cta3 a {
     font-size: 3rem;
@@ -2403,6 +2422,9 @@ MEDIA QUERY
   .exito-carrusel-titulo2 {
     transform: translateX(0rem);
   }
+  #flecha-aboutus {
+    display: none;
+  }
   footer p {
     font-size: 1.8rem !important;
   }
@@ -2428,6 +2450,12 @@ MEDIA QUERY
     background-image: url("../img/video.jpg");
     background-size: auto 100%;
     background-position: center top; 
+  }
+  #header #cont-texto p#grande {
+    margin-top: 9rem;
+  }
+  #header-about {
+    height: 60vh;
   }
   .logo-cliente {
     height: 27.5rem;
@@ -2477,12 +2505,29 @@ MEDIA QUERY
   .mb-10{
     margin-bottom: 4rem;
   }
+  #team p.texto-1_7 {
+    font-size: 2.5rem;
+  }
   .texto-5{
     font-size: 3.5rem;
   }
   .portfolio-p .filter{
     margin-bottom: 3rem;
   }
+  #spotify {
+    font-size: 2.4rem;
+    padding: 2.5rem;
+    position: static;
+    height: 27rem;
+    width: 100%;
+    max-width: 100%;
+  }
+  #spotify img {
+    margin-right: 1rem;
+    height: auto;
+    width: 15rem;
+  }
+  
 
   /*Section de casos*/
   .casos-cta{
@@ -2530,13 +2575,13 @@ MEDIA QUERY
   }
   .contactos-blog{
     margin-top: -5rem;
+
   }
 }
 
 @media (min-width: 400px) and (max-width: 767px){
   #search-parallax{
     background-position: -928rem 5rem;
-
   }
 }
 

@@ -2341,12 +2341,12 @@ MEDIA QUERY
   /*Contactos WIP*/
   #contactos div.contactos-services-cont div.wip{
     position: static;
-    height: 33rem;
+    height: 39rem;
     padding:2rem 4rem;
     width: 49rem;
   }
   #aboutus-rrss{
-    margin-top: -20px;
+    margin-top: -57px;
   }
   /*Contactos WIP*/
   #cont-logotipo {
@@ -2473,10 +2473,7 @@ MEDIA QUERY
   .team-fotos-items div p:last-child{
     font-size: 2.2rem;
   }
-<<<<<<< HEAD
-=======
 
->>>>>>> 06229a64746693619c10fc32a273cbf01829dbdf
   /*COMIENZO SUCCESS.HTML*/
   /*Menu*/
   #menu-agencia{

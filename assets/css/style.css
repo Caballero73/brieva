@@ -2607,6 +2607,31 @@ MEDIA QUERY
   #header-blog-texto .texto-6_5{
     font-size: 6rem;
   }
+  #web-bloque .mt-20{
+    margin-top: 37rem;
+  }
+ #bloque2 #bloque-info{
+    padding-top: 10px;
+ }
+  #web-bloque .texto-1_7{
+    font-size: 1.8rem;
+  }
+  #fotos2 div.img1 a{
+    font-size: 2rem;
+  }
+  #header-service-texto ul li a{
+    font-size: 2.4rem;
+  }
+  #bloque-info .color-verde{
+    font-size: 1.9rem;
+  }
+  #bloque1 .sfpro{
+    font-size: 1.9rem;
+  }
+  #proyec-rea{
+    height:33rem!important;
+  }
+
  
 
 /*Fin Celular*/

@@ -2616,6 +2616,12 @@ MEDIA QUERY
   #web-bloque .texto-1_7{
     font-size: 1.8rem;
   }
+  #fotos2{
+    height: 130vh;
+  }
+  #fotos2 .cont-fotos{
+    transform:translateY(-17rem);
+  }
   #fotos2 div.img1 a{
     font-size: 2rem;
   }
@@ -2629,7 +2635,7 @@ MEDIA QUERY
     font-size: 1.9rem;
   }
   #proyec-rea{
-    height:33rem!important;
+    height:34rem!important;
   }
 
  

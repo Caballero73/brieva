@@ -2274,7 +2274,7 @@ TEAM
 
 /*==================================================================================
 MEDIA QUERY
-====================================================================================
+************************************************************************************
 ====================================================================================*/
 
 /*Celular*/
@@ -2304,7 +2304,8 @@ MEDIA QUERY
     font-size: 7.2rem;
   }
   #aboutus-rrss {
-  padding: 6rem 0 3rem 0 !important;
+    margin-top: -3rem;
+    height: 16rem;
   }
   .btn-lg {
     height: 9rem;
@@ -2348,6 +2349,7 @@ MEDIA QUERY
   #aboutus-rrss{
     margin-top: -46px;
     height: 4rem;
+
   }
   /*Contactos WIP*/
   #cont-logotipo {
@@ -2528,8 +2530,7 @@ MEDIA QUERY
     margin-right: 1rem;
     height: auto;
     width: 15rem;
-  }
-  
+  }  
 
   /*Section de casos*/
   .casos-cta{
@@ -2565,6 +2566,22 @@ MEDIA QUERY
     margin-top: 8rem;
   }
   
+  #contenido-existos .mt-3{
+    margin-top: 8rem;
+  }
+  .formulario input.campo{
+    margin-bottom: 3rem;
+    font-size: 2rem;    
+  }
+  #ultima-img{
+      margin-top: 15px!important; 
+  }
+  .contactos-blog{
+    margin-top: -5rem;
+  }
+  #search-parallax{
+    background-position: -928rem 5rem;
+  }  
   .formulario input.campo{
     margin-bottom: 3rem;
     font-size: 2rem;    
@@ -2582,13 +2599,26 @@ MEDIA QUERY
     font-size: 1.9rem;
   }
   .contactos-search a.mapa{
+    font-size: 2.5rem;
+  }
+  #contactos div.contactos-search-cont div.card p:first-child {
+    font-size: 2.5rem;
+  }
+
+  #card-roja-contactos .contactos-menu-redes a{
+   width: 32%;
+   font-size: 2.3rem;
+  }
+  #text-correo{
+    font-size: 1.9rem;
+  }
+  .contactos-search a.mapa{
     font-size: 2rem;
   }
  #card-roja-contactos .contactos-menu-redes a{
   width: 32%;
   font-size: 2.3rem;
  }
-
 
 
 

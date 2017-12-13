@@ -2500,6 +2500,19 @@ MEDIA QUERY
     margin-top: 2.5rem;
     margin-left: 4rem;
   }
+  .mercadeo {
+    background: #242424;
+    height: 100vh;
+    width: 100%;
+  }
+  #mercadeo2-texto {
+    color: white !important;
+  }
+  .mercadeo3 {
+    background: #242424;
+    height: 100vh;
+    width: 100%;
+  }
   .team-fotos-items {
     width: 100%;
   }
@@ -2519,7 +2532,7 @@ MEDIA QUERY
     width: auto;
     overflow: hidden;
     position: relative;
-    height: 60vh;
+    height: 65vh;
   }
   #web-ejemplos .item img {
     max-width: none;
@@ -2527,7 +2540,7 @@ MEDIA QUERY
     height: 100%;
   }
   #web-ejemplos .columna2 .item img.img-fondo {
-    transform: translateX(-25vw);
+    margin-left: -30vw;
   }
 
   /*COMIENZO SUCCESS.HTML*/
@@ -2663,20 +2676,20 @@ MEDIA QUERY
   #web-bloque .mt-20{
     margin-top: 37rem;
   }
- #bloque2 #bloque-info{
-    padding-top: 10px;
- }
+   #bloque2 #bloque-info{
+      padding-top: 10px;
+   }
   #web-bloque .texto-1_7{
     font-size: 1.8rem;
   }
   #fotos2{
-    height: 130vh;
+    height: 104rem;
   }
   #fotos2 .cont-fotos{
     transform:translateY(-17rem);
   }
   #fotos2 div.img1 a{
-    font-size: 2rem;
+    font-size: 3rem;
   }
   #header-service-texto ul li a{
     font-size: 2.4rem;
@@ -2693,17 +2706,20 @@ MEDIA QUERY
   #cont-img{
     margin-top: -8rem;
   }
-
- 
-
 /*Fin Celular*/
+
+
 /*Tablet vertical*/
 @media (min-width: 400px) and (max-width: 767px){
   html {
     font-size: 7px;
   }
+  #web-ejemplos .item {
+    height: 70vh;
+  }
 }
 /*Fin Celular*/
+
 
 /*Tablet*/
 @media (min-width: 768px) and (max-width: 1024px){

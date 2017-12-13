@@ -2288,6 +2288,9 @@ MEDIA QUERY
   a.link-rojo-azul:hover,a.link-azul-rojo:hover,a.link-azul-gris:hover,a.link-blanco-verde:hover {
     font-size: 3rem !important;
   }
+  a.mapa, a.mapa:hover {
+    font-size: 2.5rem;
+  }
   .aboutus-cta-cont p:first-child {
     font-size: 2.8rem;
   } 
@@ -2335,6 +2338,9 @@ MEDIA QUERY
     height: 100vh;
     width: 100%;
   }
+  #briefing-formulario {
+    margin-bottom: 9rem;
+  }
 
   /*Contactos Index*/
   .contactos-img2 {
@@ -2354,7 +2360,10 @@ MEDIA QUERY
   .contactos-menu-redes a {
     font-family: sfreg,sans-serif;
     font-size: 2.3rem;
-    width: 23%;
+    width: 23%;    
+  }
+  #contactos-briefing .contactos-menu-redes a{
+    display: block;
   }
   .contactos-img2-mapa {
     font-size: 2.8rem;
@@ -2489,6 +2498,9 @@ MEDIA QUERY
   }
   #header-about {
     height: 60vh;
+  }
+  #header-briefing-texto {
+    margin-top: 20rem;
   }
   .logo-cliente {
     height: 27.5rem;

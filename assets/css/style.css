@@ -2500,8 +2500,8 @@ MEDIA QUERY
   .mt-14{
     margin-top: 18rem;
   }
-  .mt-10{
-    margin-top: 7rem;
+  #header-search-texto{
+    margin-top: 15rem;
   }
   .mb-10{
     margin-bottom: 4rem;
@@ -2541,15 +2541,16 @@ MEDIA QUERY
     position: static;
     width: 100%;
   }
+  #contactos div.contactos-search-cont{
+    padding-top: 3rem;
+  }
   .custom-search-form input{
     font-size: 2.7rem;
   }
   .custom-search-form .input-group-btn button{
     width: 10.8rem;
   }
-  #search-parallax{
-    background-position: -900rem 5rem;
-  }
+
   #cta1{
   margin-top: 6rem;
   }
@@ -2557,10 +2558,8 @@ MEDIA QUERY
     font-size: 2rem!important;
     padding-right: 4px;    
   }
-<<<<<<< HEAD
-  .btn-lg{
-    margin-top: 10rem;
-  }
+
+
   .mt-3{
     margin-top: 9rem;
   }
@@ -2578,14 +2577,22 @@ MEDIA QUERY
   .contactos-blog{
     margin-top: -5rem;
   }
-
-
-@media (min-width: 400px) and (max-width: 767px){
   #search-parallax{
-    background-position: -928rem 5rem;
-
+    display: none;
   }
-}
+  #text-correo{
+    font-size: 1.9rem;
+  }
+  .contactos-search a.mapa{
+    font-size: 2rem;
+  }
+ #card-roja-contactos .contactos-menu-redes a{
+  width: 32%;
+  font-size: 2.3rem;
+ }
+
+
+
 
 
 /*Fin Celular*/

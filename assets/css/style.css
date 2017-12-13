@@ -2528,8 +2528,7 @@ MEDIA QUERY
     margin-right: 1rem;
     height: auto;
     width: 15rem;
-  }
-  
+  }  
 
   /*Section de casos*/
   .casos-cta{
@@ -2551,7 +2550,6 @@ MEDIA QUERY
   .custom-search-form .input-group-btn button{
     width: 10.8rem;
   }
-
   #cta1{
   margin-top: 6rem;
   }
@@ -2559,12 +2557,19 @@ MEDIA QUERY
     font-size: 2rem!important;
     padding-right: 4px;    
   }
-
-
   #contenido-existos .mt-3{
     margin-top: 8rem;
   }
-  
+  .formulario input.campo{
+    margin-bottom: 3rem;
+    font-size: 2rem;    
+  }
+  #ultima-img{
+      margin-top: 15px!important; 
+  }
+  .contactos-blog{
+    margin-top: -5rem;
+  }
   .formulario input.campo{
     margin-bottom: 3rem;
     font-size: 2rem;    
@@ -2588,10 +2593,7 @@ MEDIA QUERY
   width: 32%;
   font-size: 2.3rem;
  }
-
-
-
-
+}
 
 /*Fin Celular*/
 /*Tablet vertical*/

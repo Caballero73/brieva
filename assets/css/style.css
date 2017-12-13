@@ -2368,6 +2368,11 @@ MEDIA QUERY
     width: 100%;
   }
   /*Fin Contactos WIP*/
+  #aboutus-rrss{
+    margin-top: -26px;
+    height: 4rem;
+  }
+  /*Contactos WIP*/
   #cont-logotipo {
     margin-top: 2.5rem;
     position: fixed;
@@ -2607,6 +2612,7 @@ MEDIA QUERY
     font-size: 2rem!important;
     padding-right: 4px;    
   }
+
   #contenido-existos .mt-3{
     margin-top: 8rem;
   }
@@ -2620,15 +2626,13 @@ MEDIA QUERY
   .contactos-blog{
     margin-top: -5rem;
   }
-  #search-parallax{
-    background-position: -928rem 5rem;
-  }  
+  
   .formulario input.campo{
     margin-bottom: 3rem;
     font-size: 2rem;    
   }
   #ultima-img{
-      margin-top: 15px!important; 
+      display: none; 
   }
   .contactos-blog{
     margin-top: -5rem;
@@ -2650,7 +2654,47 @@ MEDIA QUERY
    width: 32%;
    font-size: 2.3rem;
   }
-}
+  #header-blog-texto .texto-2_5{
+    font-size: 2.8rem;
+  }
+  #header-blog-texto .texto-6_5{
+    font-size: 6rem;
+  }
+  #web-bloque .mt-20{
+    margin-top: 37rem;
+  }
+ #bloque2 #bloque-info{
+    padding-top: 10px;
+ }
+  #web-bloque .texto-1_7{
+    font-size: 1.8rem;
+  }
+  #fotos2{
+    height: 130vh;
+  }
+  #fotos2 .cont-fotos{
+    transform:translateY(-17rem);
+  }
+  #fotos2 div.img1 a{
+    font-size: 2rem;
+  }
+  #header-service-texto ul li a{
+    font-size: 2.4rem;
+  }
+  #bloque-info .color-verde{
+    font-size: 1.9rem;
+  }
+  #bloque1 .sfpro{
+    font-size: 1.9rem;
+  }
+  #proyec-rea{
+    height:34rem!important;
+  }
+  #cont-img{
+    margin-top: -8rem;
+  }
+
+ 
 
 /*Fin Celular*/
 /*Tablet vertical*/

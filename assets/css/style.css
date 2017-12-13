@@ -2503,8 +2503,9 @@ MEDIA QUERY
   #header-search-texto{
     margin-top: 15rem;
   }
-  .mb-10{
-    margin-bottom: 4rem;
+  #compartir{
+    margin-bottom: 5rem;
+    margin-top: 5rem,
   }
   #team p.texto-1_7 {
     font-size: 2.5rem;
@@ -2560,13 +2561,10 @@ MEDIA QUERY
   }
 
 
-  .mt-3{
-    margin-top: 9rem;
+  #contenido-existos .mt-3{
+    margin-top: 8rem;
   }
-  .img-responsive{
-    height: 300px;
-    margin-top: 0;
-  }
+  
   .formulario input.campo{
     margin-bottom: 3rem;
     font-size: 2rem;    

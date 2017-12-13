@@ -2363,6 +2363,9 @@ MEDIA QUERY
     right: 0;
     z-index: 7;
   }
+  #cta1 {
+    padding-top: 0rem !important;
+  }
   #cta3 a {
     font-size: 3rem;
   }
@@ -2448,6 +2451,12 @@ MEDIA QUERY
     background-size: auto 100%;
     background-position: center top; 
   }
+  #header #cont-texto p#grande {
+    margin-top: 9rem;
+  }
+  #header-about {
+    height: 60vh;
+  }
   .logo-cliente {
     height: 27.5rem;
   }
@@ -2491,7 +2500,6 @@ MEDIA QUERY
   }
   .mt-10{
     margin-top: 7rem;
-
   }
   .mb-10{
     margin-bottom: 4rem;
@@ -2540,7 +2548,6 @@ MEDIA QUERY
   #search-parallax{
     background-position: -900rem 5rem;
   }
-
   #cta1{
   margin-top: 6rem;
   }

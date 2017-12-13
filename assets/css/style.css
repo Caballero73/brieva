@@ -2343,7 +2343,7 @@ MEDIA QUERY
     position: static;
     height: 39rem;
     padding:2rem 4rem;
-    width: 49rem;
+    width: 100%;
   }
   #aboutus-rrss{
     margin-top: -46px;
@@ -2570,9 +2570,6 @@ MEDIA QUERY
   .contactos-blog{
     margin-top: -5rem;
   }
-}
-
-@media (min-width: 400px) and (max-width: 767px){
   #search-parallax{
     background-position: -928rem 5rem;
   }  

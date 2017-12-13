@@ -2473,6 +2473,10 @@ MEDIA QUERY
   .team-fotos-items div p:last-child{
     font-size: 2.2rem;
   }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 06229a64746693619c10fc32a273cbf01829dbdf
   /*COMIENZO SUCCESS.HTML*/
   /*Menu*/
   #menu-agencia{
@@ -2568,8 +2572,7 @@ MEDIA QUERY
   }
   .formulario input.campo{
     margin-bottom: 3rem;
-    font-size: 2rem;
-    
+    font-size: 2rem;    
   }
   #ultima-img{
       margin-top: 15px!important; 
@@ -2578,7 +2581,6 @@ MEDIA QUERY
     margin-top: -5rem;
   }
 
-}
 
 @media (min-width: 400px) and (max-width: 767px){
   #search-parallax{

@@ -2347,7 +2347,7 @@ MEDIA QUERY
     width: 100%;
   }
   #aboutus-rrss{
-    margin-top: -46px;
+    margin-top: -26px;
     height: 4rem;
 
   }
@@ -2573,9 +2573,7 @@ MEDIA QUERY
   .contactos-blog{
     margin-top: -5rem;
   }
-  #search-parallax{
-    background-position: -928rem 5rem;
-  }  
+  
   .formulario input.campo{
     margin-bottom: 3rem;
     font-size: 2rem;    
@@ -2603,16 +2601,8 @@ MEDIA QUERY
    width: 32%;
    font-size: 2.3rem;
   }
-  #text-correo{
-    font-size: 1.9rem;
-  }
-  .contactos-search a.mapa{
-    font-size: 2rem;
-  }
- #card-roja-contactos .contactos-menu-redes a{
-  width: 32%;
-  font-size: 2.3rem;
- }
+  
+ 
 
 /*Fin Celular*/
 /*Tablet vertical*/

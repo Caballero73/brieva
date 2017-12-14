@@ -2762,7 +2762,7 @@ MEDIA QUERY
   }
 
   #exitos-galeria .mb-10{
-    margin-top: -25rem;
+    margin-top: 0;
   }
   #aboutus-rrss{
     margin-top: 0;
@@ -2830,6 +2830,7 @@ MEDIA QUERY
   #cont-texto {
     margin-top: 14%;
   }
+    
 }
 /*Fin Laptop pequeña*/
 
@@ -2841,6 +2842,7 @@ MEDIA QUERY
   #cont-texto {
     margin-top: 14%;
   }
+
 }
 /*Fin Laptop*/
 

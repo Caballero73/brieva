@@ -1265,6 +1265,8 @@ footer {
 }
 .footer-cont img {
   margin-right: 2rem;
+  width: 3rem;
+  height: auto;
 }
 .footer-cont p {
   color: #666;
@@ -2341,6 +2343,19 @@ MEDIA QUERY
   #briefing-formulario {
     margin-bottom: 9rem;
   }
+  #bloque1 .texto-1_7 {
+    font-size: 2.5rem;
+  }
+  #bloque1 .texto-2_5 {
+    font-size: 3rem;
+  }
+  #bloque-info .texto-1_7 {
+    font-size: 2.5rem;
+    margin-top: 3rem;
+  }
+  #bloque-info a {
+    font-size: 2.5rem;
+  }
 
   /*Contactos Index*/
   .contactos-img2 {
@@ -2502,6 +2517,9 @@ MEDIA QUERY
   #header-briefing-texto {
     margin-top: 20rem;
   }
+  #header-services .nav-pills a{
+    font-size: 2.7rem;
+  }
   .logo-cliente {
     height: 27.5rem;
   }
@@ -2553,6 +2571,27 @@ MEDIA QUERY
   }
   #web-ejemplos .columna2 .item img.img-fondo {
     margin-left: -30vw;
+  }
+  .webdesing2 {
+    height: 100vh;
+    width: 100%;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  .webdesing2 .degradado {
+    background: transparent;
+    height: 100%;
+    width: 100%;
+  }
+  .webdesing2 div.row {
+    margin-top: 18rem;
+  }
+  .webdesing2 p {
+    border: 0 !important;
+  }
+  .webdesing2 .texto-1_7 {
+    font-size: 2.5rem !important;
+    margin-top: 4rem;
   }
 
   /*COMIENZO SUCCESS.HTML*/
@@ -2691,9 +2730,6 @@ MEDIA QUERY
    #bloque2 #bloque-info{
       padding-top: 10px;
    }
-  #web-bloque .texto-1_7{
-    font-size: 1.8rem;
-  }
   #fotos2{
     height: 104rem;
   }
@@ -2706,14 +2742,8 @@ MEDIA QUERY
   #header-service-texto ul li a{
     font-size: 2.4rem;
   }
-  #bloque-info .color-verde{
-    font-size: 1.9rem;
-  }
-  #bloque1 .sfpro{
-    font-size: 1.9rem;
-  }
   #proyec-rea{
-    height:34rem!important;
+    height:53rem!important;
   }
   #cont-img{
     margin-top: -8rem;

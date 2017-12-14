@@ -2766,10 +2766,13 @@ MEDIA QUERY
   }
   #aboutus-rrss{
     margin-top: 0;
+    height: 18rem!important;
+
   }
+  
   #contactos div.contactos-services-cont div.wip{
     padding-top: 6rem;
-    height: 37rem;
+    height: 40rem;
   }
   .formulario input.btn{
     width: 30%;
@@ -2801,7 +2804,12 @@ MEDIA QUERY
   #header-blog-texto .texto-6_5{
     margin-top: 10rem;
   }
- 
+  .formulari-brie{
+    margin-top: -20rem;
+  }
+   #button-blog{
+    margin-top: 15rem;
+  }
 }
 /*Fin Celular*/
 

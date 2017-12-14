@@ -1597,7 +1597,7 @@ HEADER
 }
 #tu-dominio a{
   color: white;
-  text-decoration: underline;
+  text-decoration: none;
 }
 #tu-dominio a:hover{
   color: #0086f8;

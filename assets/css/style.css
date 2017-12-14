@@ -2779,6 +2779,31 @@ MEDIA QUERY
   .formulario input.campo{
     font-size: 2.5rem;
   }
+
+  #compartir .texto-1_7{
+    font-size: 1.9rem;
+  }
+  #reseva{
+    margin-top: -12rem;
+  }
+  #cta1 .cta-cont{
+    margin-top: -8rem;
+  }
+  #blog-art .mt-3{
+    margin-top: 7rem;
+  }
+  #header-blog-texto{
+    margin-top: 30rem;
+  }
+  #header-blog-texto .color-verde{
+    font-size: 3.6rem;
+  }
+  #header-blog-texto .texto-6_5{
+    margin-top: 10rem;
+  }
+  #button-blog{
+    margin-top: 10rem;
+  }
 }
 /*Fin Celular*/
 

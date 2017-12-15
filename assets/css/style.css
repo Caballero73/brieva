@@ -155,7 +155,6 @@ a.link-blanco-verde:hover {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-
 }
 .btn-azul {
   background-color: #1254c6;
@@ -235,7 +234,6 @@ a.link-blanco-verde:hover {
        -o-transition-duration: .4s;
           transition-duration: .4s;
 }
-
 .btn-lg {
   height: 7rem;
   width: 29rem;
@@ -296,8 +294,7 @@ a.link-blanco-verde:hover {
   -webkit-transition:opacity 0.5s ease;
   -o-transition:opacity 0.5s ease;
   transition:opacity 0.5s ease;
-  z-index: 9;
-
+  z-index: 99;
 }
 .ir-arriba:hover,.ir-arriba:active,
 .ir-arriba:focus,.ir-arriba:visited {
@@ -307,7 +304,6 @@ a.link-blanco-verde:hover {
   -o-transition:opacity 0.5s ease;
   transition:opacity 0.5s ease;
 }
-
 .fijo {
   overflow-y: hidden;
 }
@@ -678,7 +674,6 @@ BLOG / COMUNIDAD
   background-position: center top;
   background-size: cover;
 }
-
 #blog-art a.link-azul-gris {
   color: #999999;
   font-family: sfreg,sans-serif;
@@ -724,7 +719,6 @@ BLOG / COMUNIDAD
   top: 6rem;
   left: 6rem;  
 }
-
 
 
 /*=========== BLOG / COMUNIDAD =============*/
@@ -1139,7 +1133,6 @@ CASOS DE EXITO - ELEMPLO
   background-position: center top;
   background-size: cover;
 }
-
 #compartir a.link-azul-gris {
   color: #999999;
   font-family: sfreg,sans-serif;
@@ -1160,7 +1153,6 @@ CASOS DE EXITO - ELEMPLO
   -o-transition: all .5s ease;
   transition: all .5s ease;
 }
-
 /*CASOS DE EXITO - EJEMPLO*/
 
 
@@ -1245,7 +1237,6 @@ CONTACTOS
   opacity: .5;
   color: black;
 }
-
 /*CONTACTOS*/
 
 
@@ -1362,13 +1353,11 @@ HEADER
   height: 9rem;
   width: 19rem;
 }
-
 #marca img {
   width: 126px;
   width: 12.6rem;
   height: auto;
 }
-
 #hora {
   background-color: white;
   display: -webkit-box;
@@ -1491,7 +1480,6 @@ HEADER
   75%  {top: 5rem}
   100% {top: 0.4rem;}
 }
-
 /*Menu*/
 .menu {
   -webkit-box-align: center;
@@ -1604,7 +1592,6 @@ HEADER
   color: #0086f8;
   cursor: pointer;
 }
-
 /*Burger Button*/
 #burger-button {
   background-color: #EF174F; /*Aquí debe ir un color #000000 pero el cliente pidió cambiarle*/
@@ -1655,7 +1642,6 @@ HEADER
 #bars span:nth-of-type(3) {
     top: 2.8rem;
 }
-
 /* Animate the top hamburger bar */
 #bars.x .top {
     -webkit-transform: translateY(1.4rem) translateX(0) rotate(45deg);
@@ -1663,7 +1649,6 @@ HEADER
             transform: translateY(1.4rem) translateX(0) rotate(45deg);
     background: #333;
 }
-
 /* Set the middle hamburger bar's opacity to 0  */
 #bars.x .middle {
     opacity: 0;
@@ -1724,6 +1709,43 @@ div.mercadeo2-cont {
 }
 
 /*=========== MERCADEO =============*/
+
+
+/*====================================
+MODAL
+====================================*/
+#contact {
+  background-color: rgba(13,29,109,0.5);
+}
+#contact .close {
+  font-size: 6rem;
+  color: white;
+  opacity: 0.6;
+  transition: all .5s ease;
+}
+#contact .close:hover {
+  opacity: 1;
+  transition: all .5s ease;
+}
+#contact .modal-header {
+  background-image: url('../img/imgmodal.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+#contact .modal-header h4{
+  color: white;
+  font-family: sfpro,sans-serif;
+  font-size: 4rem;
+  margin-top: 20rem;
+}
+#contact .modal-header p{
+  color: white;
+  font-family: sfreg,sans-serif;
+  font-size: 2rem;
+  margin-top: 1rem;
+}
+/*=========== MODAL ================*/
+
 
 /*==================================================
 SEARCH / BUSCADOR DOMINIOS
@@ -2618,7 +2640,7 @@ MEDIA QUERY
   }
   #compartir{
     margin-bottom: 5rem;
-    margin-top: 5rem,
+    margin-top: 5rem;
   }
   #team p.texto-1_7 {
     font-size: 2.5rem;
@@ -2684,7 +2706,6 @@ MEDIA QUERY
   .contactos-blog{
     margin-top: -5rem;
   }
-  
   .formulario input.campo{
     margin-bottom: 3rem;
     font-size: 2rem;    
@@ -2707,7 +2728,6 @@ MEDIA QUERY
   #contactos div.contactos-search-cont div.card p:first-child {
     font-size: 2.5rem;
   }
-
   #card-roja-contactos .contactos-menu-redes a{
    width: 32%;
    font-size: 2.3rem;
@@ -2742,6 +2762,7 @@ MEDIA QUERY
   #cont-img{
     margin-top: -8rem;
   }
+}
 /*Fin Celular*/
 
 
@@ -2752,18 +2773,14 @@ MEDIA QUERY
   }
   #web-ejemplos .item {
     height: 70vh;
-
   }
-
   #exitos-galeria .mb-10{
     margin-top: 0;
   }
   #aboutus-rrss{
     margin-top: 0;
     height: 18rem!important;
-
   }
-  
   #contactos div.contactos-services-cont div.wip{
     padding-top: 6rem;
     height: 40rem;
@@ -2772,11 +2789,9 @@ MEDIA QUERY
     width: 30%;
     font-size: 2.5rem;
   }
-
   .formulario input.campo{
     font-size: 2.5rem;
   }
-
   #compartir .texto-1_7{
     font-size: 1.9rem;
   }
@@ -2805,7 +2820,7 @@ MEDIA QUERY
     margin-top: 15rem;
   }
 }
-/*Fin Celular*/
+/*Tablet vertical*/
 
 
 /*Tablet*/
@@ -2836,7 +2851,6 @@ MEDIA QUERY
   #cont-texto {
     margin-top: 14%;
   }
-
 }
 /*Fin Laptop*/
 

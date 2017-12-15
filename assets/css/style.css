@@ -2758,6 +2758,57 @@ MEDIA QUERY
   }
   #web-ejemplos .item {
     height: 70vh;
+
+  }
+
+  #exitos-galeria .mb-10{
+    margin-top: 0;
+  }
+  #aboutus-rrss{
+    margin-top: 0;
+    height: 18rem!important;
+
+  }
+  
+  #contactos div.contactos-services-cont div.wip{
+    padding-top: 6rem;
+    height: 40rem;
+  }
+  .formulario input.btn{
+    width: 30%;
+    font-size: 2.5rem;
+  }
+
+  .formulario input.campo{
+    font-size: 2.5rem;
+  }
+
+  #compartir .texto-1_7{
+    font-size: 1.9rem;
+  }
+  #reseva{
+    margin-top: -12rem;
+  }
+  #cta1 .cta-cont{
+    margin-top: -8rem;
+  }
+  #blog-art .mt-3{
+    margin-top: 7rem;
+  }
+  #header-blog-texto{
+    margin-top: 30rem;
+  }
+  #header-blog-texto .color-verde{
+    font-size: 3.6rem;
+  }
+  #header-blog-texto .texto-6_5{
+    margin-top: 10rem;
+  }
+  .formulari-brie{
+    margin-top: -20rem;
+  }
+   #button-blog{
+    margin-top: 15rem;
   }
 }
 /*Fin Celular*/
@@ -2779,6 +2830,7 @@ MEDIA QUERY
   #cont-texto {
     margin-top: 14%;
   }
+    
 }
 /*Fin Laptop pequeña*/
 
@@ -2790,6 +2842,7 @@ MEDIA QUERY
   #cont-texto {
     margin-top: 14%;
   }
+
 }
 /*Fin Laptop*/
 

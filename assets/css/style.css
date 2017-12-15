@@ -15,6 +15,7 @@
 - FOOTER
 - HEADER
 - MERCADEO
+- MODAL
 - SEARCH / BUSCADOR DOMINIOS
 - SERVICIO / SERVICES
 - SLICK
@@ -2178,7 +2179,8 @@ figure.effect-duke img {
   -webkit-transition: all ease 2s !important;
   -o-transition: all ease 2s !important;
   transition: all ease 2s !important;
-}.slick-center figure.effect-duke img {
+}
+.slick-center figure.effect-duke img {
   cursor: pointer;
   opacity: 0.1;
   -webkit-transform: scale3d(2,2,1);
@@ -2195,14 +2197,15 @@ figure.effect-duke div {
   margin: 2rem;
   padding: 3rem;
   text-transform: none;
-  opacity: 0;
-  -webkit-transform: scale3d(0.8,0.8,1);
+  opacity: 0;/*Cambiado aquí*/
   transform: scale3d(0.8,0.8,1);
-  -webkit-transform-origin: 50% -100%;
-  -ms-transform-origin: 50% -100%;
-      transform-origin: 50% -100%;
-  -webkit-transition: all ease .7s !important;
-  -o-transition: all ease .7s !important;
+  transform-origin: 50% -100%;/*Cambiado aquí*/
+  transition: all ease .7s !important;
+}
+.slick-center figure.effect-duke div {
+  cursor: pointer;
+  opacity: 1;
+  transform: scale3d(1,1,1);
   transition: all ease .7s !important;
 }
 figure.effect-duke div .texto1 {
@@ -2228,15 +2231,6 @@ figure.effect-duke div .texto3 {
   margin-top: 0.7rem;
 }
 
-.slick-center figure.effect-duke div {
-  cursor: pointer;
-  opacity: 1;
-  -webkit-transform: scale3d(1,1,1);
-  transform: scale3d(1,1,1);
-  -webkit-transition: all ease .7s !important;
-  -o-transition: all ease .7s !important;
-  transition: all ease .7s !important;
-}
 /*=========== SLICK =============*/
 
 
